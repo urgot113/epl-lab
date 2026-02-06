@@ -22,6 +22,8 @@ async function main() {
   await ensureDir(siteDataDir);
   await copyFile('epl.json');
   await copyFile('predictions.json');
+  // optional
+  try { await copyFile('toto.json'); } catch {}
   console.log('Copied data/*.json -> site/data/*.json');
 }
 

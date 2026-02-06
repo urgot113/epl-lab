@@ -117,6 +117,20 @@
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <h2>Combo Suggestions (2–10 games)</h2>
+        <div class="content">
+          <div class="row" style="justify-content: space-between; margin-bottom: 8px;">
+            <span class="pill">Informational only · model-based</span>
+            <span class="pill" id="totoMeta"></span>
+          </div>
+          <div id="totoBox"></div>
+          <div style="margin-top:10px; color: var(--muted); font-size:12px;">
+            <div>Joint probability is a naive product (independence assumption). Real outcomes are not independent.</div>
+          </div>
+        </div>
+      </div>
     </aside>
   </main>
 
@@ -195,6 +209,7 @@
 
   let DATA = null;
   let PREDS = null;
+  let TOTO = null;
 
   function renderTeam(team) {
     const box = document.getElementById('teamBox');
@@ -310,6 +325,38 @@
     }).join('');
   }
 
+  function renderToto() {
+    const box = document.getElementById('totoBox');
+    const meta = document.getElementById('totoMeta');
+
+    if (!TOTO?.combos) {
+      box.innerHTML = `<span class="pill">No toto.json</span>`;
+      meta.textContent = '';
+      return;
+    }
+
+    meta.textContent = `window=${TOTO.meta.windowDays}d · base=${TOTO.meta.baseDate}`;
+
+    const ks = Object.keys(TOTO.combos).map(Number).sort((a,b)=>a-b);
+    box.innerHTML = ks.map(k => {
+      const c = TOTO.combos[String(k)];
+      const pct = (c.jointProb * 100).toFixed(2);
+      const items = c.games.map(g =>
+        `<div class="mono" style="margin:2px 0;">${g.date} · ${g.match} · ${g.pick} (${(g.prob*100).toFixed(0)}%)</div>`
+      ).join('');
+
+      return `
+        <div style="border:1px solid var(--border); border-radius:12px; padding:10px; margin-bottom:10px;">
+          <div class="row" style="justify-content: space-between;">
+            <span class="pill">${k} games</span>
+            <span class="pill mono">joint≈${pct}%</span>
+          </div>
+          <div style="margin-top:8px;">${items}</div>
+        </div>
+      `;
+    }).join('');
+  }
+
   async function main() {
     const res = await fetch('./data/epl.json');
     DATA = await res.json();
@@ -322,12 +369,21 @@
       PREDS = null;
     }
 
+    // combo suggestions are optional
+    try {
+      const tr = await fetch('./data/toto.json');
+      if (tr.ok) TOTO = await tr.json();
+    } catch (e) {
+      TOTO = null;
+    }
+
     document.getElementById('meta').textContent = `season=${DATA.season} · updatedAt=${DATA.updatedAt}`;
 
     const rows = computeTable(DATA.matches);
     renderTable(rows);
 
     renderPredTable();
+    renderToto();
 
     const sel = document.getElementById('teamSel');
     sel.innerHTML = rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
