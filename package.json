@@ -5,7 +5,6 @@
   "scripts": {
     "update:data": "node scripts/update-data.js",
     "build:predictions": "node scripts/build-predictions.js",
-    "refresh": "node scripts/update-data.js && node scripts/build-predictions.js && node scripts/build-toto.js --days 7 && node scripts/build-ev.js && node scripts/copy-site-data.js",
-    "fetch:odds": "node scripts/fetch-batman-odds.js"
+    "refresh": "node scripts/update-data.js && node scripts/build-predictions.js && node scripts/build-toto.js --days 7 && node scripts/copy-site-data.js"
   }
 }
