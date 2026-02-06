@@ -5,6 +5,6 @@
   "scripts": {
     "update:data": "node scripts/update-data.js",
     "build:predictions": "node scripts/build-predictions.js",
-    "refresh": "node scripts/update-data.js && node scripts/build-predictions.js"
+    "refresh": "node scripts/update-data.js && node scripts/build-predictions.js && node scripts/copy-site-data.js"
   }
 }

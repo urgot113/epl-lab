@@ -309,12 +309,12 @@
   }
 
   async function main() {
-    const res = await fetch('../data/epl.json');
+    const res = await fetch('./data/epl.json');
     DATA = await res.json();
 
     // predictions are optional
     try {
-      const pr = await fetch('../data/predictions.json');
+      const pr = await fetch('./data/predictions.json');
       if (pr.ok) PREDS = await pr.json();
     } catch (e) {
       PREDS = null;
