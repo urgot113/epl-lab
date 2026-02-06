@@ -131,6 +131,34 @@
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <h2>Value Picks (EV vs Odds)</h2>
+        <div class="content">
+          <div class="row" style="justify-content: space-between; margin-bottom: 8px;">
+            <span class="pill">Informational only · model vs odds</span>
+            <span class="pill" id="evMeta"></span>
+          </div>
+          <div style="overflow:auto; max-height: 360px;">
+            <table id="evTable">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Match</th>
+                  <th class="mono">Pick</th>
+                  <th class="mono">p(model)</th>
+                  <th class="mono">odds</th>
+                  <th class="mono">EV</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div style="margin-top:10px; color: var(--muted); font-size:12px;">
+            <div>EV uses decimal odds: EV = p*odds - 1. Requires <code>data/odds.json</code>.</div>
+          </div>
+        </div>
+      </div>
     </aside>
   </main>
 
@@ -210,6 +238,7 @@
   let DATA = null;
   let PREDS = null;
   let TOTO = null;
+  let EV = null;
 
   function renderTeam(team) {
     const box = document.getElementById('teamBox');
@@ -357,6 +386,32 @@
     }).join('');
   }
 
+  function renderEV() {
+    const meta = document.getElementById('evMeta');
+    const tbody = document.querySelector('#evTable tbody');
+
+    if (!EV?.rows?.length) {
+      meta.textContent = '';
+      tbody.innerHTML = `<tr><td colspan="6"><span class="pill">No ev.json (need odds.json)</span></td></tr>`;
+      return;
+    }
+
+    meta.textContent = `odds=${EV.meta.oddsSource} · updatedAt=${EV.meta.oddsUpdatedAt || ''}`;
+
+    const rows = EV.rows.slice(0, 20);
+    tbody.innerHTML = rows.map(r => {
+      const b = r.picks.bestEV;
+      return `<tr>
+        <td class="mono">${r.date}</td>
+        <td>${r.home} vs ${r.away}</td>
+        <td class="mono">${b.pick}</td>
+        <td class="mono">${(b.p*100).toFixed(1)}%</td>
+        <td class="mono">${b.odds.toFixed(2)}</td>
+        <td class="mono">${(b.ev*100).toFixed(1)}%</td>
+      </tr>`;
+    }).join('');
+  }
+
   async function main() {
     const res = await fetch('./data/epl.json');
     DATA = await res.json();
@@ -377,6 +432,14 @@
       TOTO = null;
     }
 
+    // EV (requires odds.json) is optional
+    try {
+      const er = await fetch('./data/ev.json');
+      if (er.ok) EV = await er.json();
+    } catch (e) {
+      EV = null;
+    }
+
     document.getElementById('meta').textContent = `season=${DATA.season} · updatedAt=${DATA.updatedAt}`;
 
     const rows = computeTable(DATA.matches);
@@ -384,6 +447,7 @@
 
     renderPredTable();
     renderToto();
+    renderEV();
 
     const sel = document.getElementById('teamSel');
     sel.innerHTML = rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');

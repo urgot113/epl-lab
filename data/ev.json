@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "baseDate": "2026-02-06",
+    "asOfDate": "2025-12-30",
+    "generatedAt": "2026-02-06T13:20:38.221Z",
+    "oddsSource": "manual/sample",
+    "oddsUpdatedAt": "2026-02-06T13:18:00.000Z",
+    "note": "Informational only. EV computed from Poisson probabilities and decimal odds."
+  },
+  "rows": [
+    {
+      "date": "2026-02-07",
+      "round": "Matchday 25",
+      "home": "Wolverhampton Wanderers",
+      "away": "Chelsea",
+      "model": {
+        "pH": 0.07076665218965492,
+        "pD": 0.12543279352962355,
+        "pA": 0.8038005542807215,
+        "xg": [
+          0.7617747440273037,
+          2.912121212121212
+        ],
+        "ml": {
+          "home": 0,
+          "away": 2,
+          "p": 0.10760591854641957
+        }
+      },
+      "odds": {
+        "book": "SAMPLE",
+        "H": 5.2,
+        "D": 3.8,
+        "A": 1.62,
+        "implied": {
+          "H": 0.17926616191030867,
+          "D": 0.24531158998252767,
+          "A": 0.5754222481071636
+        },
+        "overround": 1.0727495376618184
+      },
+      "picks": {
+        "modelTop": "A",
+        "bestEV": {
+          "pick": "A",
+          "ev": 0.30215689793476885,
+          "p": 0.8038005542807215,
+          "odds": 1.62,
+          "imp": 0.5754222481071636
+        }
+      }
+    }
+  ]
+}

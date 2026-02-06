@@ -24,6 +24,8 @@ async function main() {
   await copyFile('predictions.json');
   // optional
   try { await copyFile('toto.json'); } catch {}
+  try { await copyFile('odds.json'); } catch {}
+  try { await copyFile('ev.json'); } catch {}
   console.log('Copied data/*.json -> site/data/*.json');
 }
 
