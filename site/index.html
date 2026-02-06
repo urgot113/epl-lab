@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EPL Lab</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121a33;
+      --text: #e8ecff;
+      --muted: #9aa6d6;
+      --accent: #7aa2ff;
+      --good: #4ade80;
+      --bad: #fb7185;
+      --warn: #fbbf24;
+      --border: rgba(255,255,255,0.08);
+    }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; background: var(--bg); color: var(--text); }
+    header { padding: 24px 20px; border-bottom: 1px solid var(--border); background: linear-gradient(180deg, rgba(122,162,255,0.12), transparent); }
+    h1 { margin: 0 0 8px 0; font-size: 22px; }
+    p { margin: 0; color: var(--muted); }
+    main { max-width: 1100px; margin: 0 auto; padding: 18px 20px 40px; display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 16px; }
+    .card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .card h2 { font-size: 14px; margin: 0; padding: 12px 14px; border-bottom: 1px solid var(--border); color: var(--muted); letter-spacing: 0.3px; }
+    .card .content { padding: 12px 14px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: left; }
+    th { color: var(--muted); font-weight: 600; }
+    tr:hover td { background: rgba(255,255,255,0.03); }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .pill { display: inline-flex; gap: 6px; align-items: center; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); font-size: 12px; }
+    .form span { display:inline-block; width: 18px; height: 18px; line-height: 18px; text-align:center; border-radius: 5px; margin-right: 4px; font-size: 11px; }
+    .W { background: rgba(74,222,128,0.18); color: var(--good); border: 1px solid rgba(74,222,128,0.35); }
+    .D { background: rgba(251,191,36,0.14); color: var(--warn); border: 1px solid rgba(251,191,36,0.30); }
+    .L { background: rgba(251,113,133,0.16); color: var(--bad); border: 1px solid rgba(251,113,133,0.32); }
+    .row { display:flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .select { background: transparent; color: var(--text); border: 1px solid var(--border); border-radius: 10px; padding: 8px 10px; }
+    a { color: var(--accent); text-decoration: none; }
+    @media (max-width: 980px) { main { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EPL Lab</h1>
+    <p class="mono">Static MVP: table + team form from <code>data/epl.json</code>. <span id="meta" class="pill"></span></p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>League Table (computed from matches)</h2>
+      <div class="content">
+        <div class="row" style="margin-bottom:10px; justify-content: space-between;">
+          <div class="pill">Tie-break: Pts → GD → GF → name</div>
+          <div class="pill">Click team name to view details</div>
+        </div>
+        <div style="overflow:auto;">
+          <table id="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Team</th>
+                <th class="mono">P</th>
+                <th class="mono">W</th>
+                <th class="mono">D</th>
+                <th class="mono">L</th>
+                <th class="mono">GF</th>
+                <th class="mono">GA</th>
+                <th class="mono">GD</th>
+                <th class="mono">Pts</th>
+                <th>Form (last 5)</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <aside style="display:grid; gap:16px; align-content:start;">
+      <div class="card">
+        <h2>Team</h2>
+        <div class="content">
+          <div class="row" style="margin-bottom:10px;">
+            <label class="pill" for="teamSel">Select</label>
+            <select id="teamSel" class="select"></select>
+          </div>
+          <div id="teamBox"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Upcoming Predictions (Poisson + Elo)</h2>
+        <div class="content">
+          <div class="row" style="justify-content: space-between; margin-bottom: 8px;">
+            <span class="pill">Not betting advice · model-based</span>
+            <span class="pill" id="predMeta"></span>
+          </div>
+          <div style="overflow:auto; max-height: 520px;">
+            <table id="predTable">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Match</th>
+                  <th class="mono">H</th>
+                  <th class="mono">D</th>
+                  <th class="mono">A</th>
+                  <th class="mono">xG*</th>
+                  <th class="mono">ML</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div style="margin-top:10px; color: var(--muted); font-size:12px;">
+            <div>* xG here means expected goals from a simple Poisson goals model (not event-based xG).</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+<script>
+  function computeTable(matches) {
+    const t = new Map();
+    function ensure(name) {
+      if (!t.has(name)) t.set(name, { team:name, P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0, results:[] });
+      return t.get(name);
+    }
+    const sortedMatches = [...matches].sort((a,b)=> (a.date||'').localeCompare(b.date||''));
+
+    for (const m of sortedMatches) {
+      if (typeof m.homeGoals !== 'number' || typeof m.awayGoals !== 'number') continue;
+      const H = ensure(m.home);
+      const A = ensure(m.away);
+      H.P++; A.P++;
+      H.GF += m.homeGoals; H.GA += m.awayGoals;
+      A.GF += m.awayGoals; A.GA += m.homeGoals;
+
+      if (m.homeGoals > m.awayGoals) {
+        H.W++; A.L++; H.Pts += 3;
+        H.results.push('W'); A.results.push('L');
+      } else if (m.homeGoals < m.awayGoals) {
+        A.W++; H.L++; A.Pts += 3;
+        A.results.push('W'); H.results.push('L');
+      } else {
+        H.D++; A.D++; H.Pts += 1; A.Pts += 1;
+        H.results.push('D'); A.results.push('D');
+      }
+    }
+
+    for (const x of t.values()) x.GD = x.GF - x.GA;
+
+    const rows = [...t.values()].sort((a,b)=>
+      b.Pts - a.Pts || b.GD - a.GD || b.GF - a.GF || a.team.localeCompare(b.team)
+    );
+
+    return rows;
+  }
+
+  function formHtml(results) {
+    const last5 = results.slice(-5);
+    if (!last5.length) return '<span class="pill">-</span>';
+    return `<span class="form">${last5.map(r=>`<span class="${r}">${r}</span>`).join('')}</span>`;
+  }
+
+  function renderTable(rows) {
+    const tbody = document.querySelector('#table tbody');
+    tbody.innerHTML = rows.map((r, idx)=>
+      `<tr>
+        <td class="mono">${idx+1}</td>
+        <td><a href="#" data-team="${encodeURIComponent(r.team)}">${r.team}</a></td>
+        <td class="mono">${r.P}</td>
+        <td class="mono">${r.W}</td>
+        <td class="mono">${r.D}</td>
+        <td class="mono">${r.L}</td>
+        <td class="mono">${r.GF}</td>
+        <td class="mono">${r.GA}</td>
+        <td class="mono">${r.GD}</td>
+        <td class="mono">${r.Pts}</td>
+        <td>${formHtml(r.results)}</td>
+      </tr>`
+    ).join('');
+
+    tbody.querySelectorAll('a[data-team]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        e.preventDefault();
+        const team = decodeURIComponent(a.dataset.team);
+        document.querySelector('#teamSel').value = team;
+        window.location.hash = `team=${encodeURIComponent(team)}`;
+        renderTeam(team);
+      })
+    })
+  }
+
+  let DATA = null;
+  let PREDS = null;
+
+  function renderTeam(team) {
+    const box = document.getElementById('teamBox');
+    if (!DATA) return;
+    const matches = DATA.matches
+      .filter(m=> (m.home===team || m.away===team) && typeof m.homeGoals==='number' && typeof m.awayGoals==='number')
+      .sort((a,b)=> (a.date||'').localeCompare(b.date||''));
+
+    const last = matches.slice(-8).reverse();
+    const lines = last.map(m=>{
+      const isHome = m.home===team;
+      const gf = isHome ? m.homeGoals : m.awayGoals;
+      const ga = isHome ? m.awayGoals : m.homeGoals;
+      const opp = isHome ? m.away : m.home;
+      const res = gf>ga?'W':gf<ga?'L':'D';
+      return { date:m.date, opp, gf, ga, res, venue: isHome?'H':'A' };
+    });
+
+    const row = computeTable(DATA.matches).find(r=>r.team===team);
+    if (!row) { box.innerHTML = '<div class="pill">No data</div>'; return; }
+
+    // next fixtures/preds
+    let next = [];
+    if (PREDS?.upcoming?.length) {
+      next = PREDS.upcoming
+        .filter(x => x.home === team || x.away === team)
+        .slice(0, 5);
+    }
+
+    box.innerHTML = `
+      <div class="row" style="justify-content: space-between;">
+        <div>
+          <div style="font-size:18px; font-weight:700;">${team}</div>
+          <div class="pill mono">P ${row.P} · W ${row.W} D ${row.D} L ${row.L} · GD ${row.GD} · Pts ${row.Pts}</div>
+        </div>
+        <div>${formHtml(row.results)}</div>
+      </div>
+
+      ${next.length ? `
+      <div style="margin-top:12px;">
+        <div class="pill">Next 5 predictions (Poisson)</div>
+        <div style="margin-top:8px; overflow:auto;">
+          <table>
+            <thead>
+              <tr><th>Date</th><th>Match</th><th class="mono">H</th><th class="mono">D</th><th class="mono">A</th><th class="mono">ML</th></tr>
+            </thead>
+            <tbody>
+              ${next.map(x=>{
+                const p = x.poisson;
+                const ml = p?.mostLikelyScore ? `${p.mostLikelyScore.home}-${p.mostLikelyScore.away}` : '-';
+                return `<tr>
+                  <td class="mono">${x.date}</td>
+                  <td>${x.home} vs ${x.away}</td>
+                  <td class="mono">${p ? (p.pHome*100).toFixed(0)+'%' : '-'}</td>
+                  <td class="mono">${p ? (p.pDraw*100).toFixed(0)+'%' : '-'}</td>
+                  <td class="mono">${p ? (p.pAway*100).toFixed(0)+'%' : '-'}</td>
+                  <td class="mono">${ml}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>` : ''}
+
+      <div style="margin-top:12px;">
+        <div class="pill">Recent matches</div>
+        <div style="margin-top:8px; overflow:auto;">
+          <table>
+            <thead>
+              <tr><th>Date</th><th>H/A</th><th>Opp</th><th class="mono">GF</th><th class="mono">GA</th><th>Res</th></tr>
+            </thead>
+            <tbody>
+              ${lines.map(x=>`<tr>
+                <td class="mono">${x.date||''}</td>
+                <td class="mono">${x.venue}</td>
+                <td>${x.opp}</td>
+                <td class="mono">${x.gf}</td>
+                <td class="mono">${x.ga}</td>
+                <td><span class="${x.res}" style="padding:2px 6px; border-radius:6px; display:inline-block;">${x.res}</span></td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderPredTable() {
+    const tbody = document.querySelector('#predTable tbody');
+    if (!PREDS?.upcoming?.length) {
+      tbody.innerHTML = `<tr><td colspan="7"><span class="pill">No predictions.json</span></td></tr>`;
+      return;
+    }
+
+    document.getElementById('predMeta').textContent = `updatedAt=${PREDS.updatedAt}`;
+
+    const rows = PREDS.upcoming.slice(0, 25);
+    tbody.innerHTML = rows.map(x=>{
+      const p = x.poisson;
+      const ml = p?.mostLikelyScore ? `${p.mostLikelyScore.home}-${p.mostLikelyScore.away}` : '-';
+      const xg = p ? `${p.lambdaHome.toFixed(2)}-${p.lambdaAway.toFixed(2)}` : '-';
+      return `<tr>
+        <td class="mono">${x.date}</td>
+        <td>${x.home} vs ${x.away}</td>
+        <td class="mono">${p ? (p.pHome*100).toFixed(0)+'%' : '-'}</td>
+        <td class="mono">${p ? (p.pDraw*100).toFixed(0)+'%' : '-'}</td>
+        <td class="mono">${p ? (p.pAway*100).toFixed(0)+'%' : '-'}</td>
+        <td class="mono">${xg}</td>
+        <td class="mono">${ml}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  async function main() {
+    const res = await fetch('../data/epl.json');
+    DATA = await res.json();
+
+    // predictions are optional
+    try {
+      const pr = await fetch('../data/predictions.json');
+      if (pr.ok) PREDS = await pr.json();
+    } catch (e) {
+      PREDS = null;
+    }
+
+    document.getElementById('meta').textContent = `season=${DATA.season} · updatedAt=${DATA.updatedAt}`;
+
+    const rows = computeTable(DATA.matches);
+    renderTable(rows);
+
+    renderPredTable();
+
+    const sel = document.getElementById('teamSel');
+    sel.innerHTML = rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
+    sel.addEventListener('change', ()=>{
+      window.location.hash = `team=${encodeURIComponent(sel.value)}`;
+      renderTeam(sel.value);
+    });
+
+    const m = /team=([^&]+)/.exec(location.hash.replace('#',''));
+    const initial = m ? decodeURIComponent(m[1]) : (rows[0]?.team || '');
+    if (initial) {
+      sel.value = initial;
+      renderTeam(initial);
+    }
+  }
+
+  main().catch(err=>{
+    console.error(err);
+    document.getElementById('meta').textContent = 'Failed to load data/epl.json';
+  });
+</script>
+</body>
+</html>

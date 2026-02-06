@@ -1,0 +1,10 @@
+{
+  "name": "epl-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update:data": "node scripts/update-data.js",
+    "build:predictions": "node scripts/build-predictions.js",
+    "refresh": "node scripts/update-data.js && node scripts/build-predictions.js"
+  }
+}
