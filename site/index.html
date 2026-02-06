@@ -70,6 +70,33 @@
     summary { cursor: pointer; color: var(--text); }
 
     @media (max-width: 980px) { main { grid-template-columns: 1fr; } }
+
+    /* Mobile tweaks */
+    @media (max-width: 560px) {
+      header { padding: 18px 14px; }
+      main { padding: 14px 14px 34px; }
+      .card h2 { padding: 10px 12px; }
+      .card .content { padding: 10px 12px; }
+      table { font-size: 12px; }
+
+      /* League table: hide less-important columns */
+      #table th:nth-child(3), #table td:nth-child(3), /* P */
+      #table th:nth-child(4), #table td:nth-child(4), /* W */
+      #table th:nth-child(5), #table td:nth-child(5), /* D */
+      #table th:nth-child(6), #table td:nth-child(6), /* L */
+      #table th:nth-child(7), #table td:nth-child(7), /* GF */
+      #table th:nth-child(8), #table td:nth-child(8), /* GA */
+      #table th:nth-child(9), #table td:nth-child(9)  /* GD */
+      { display: none; }
+
+      /* Predictions: hide xG + ML to keep it readable */
+      #predTable th:nth-child(6), #predTable td:nth-child(6),
+      #predTable th:nth-child(7), #predTable td:nth-child(7) {
+        display: none;
+      }
+
+      .probbar { height: 6px; }
+    }
   </style>
 </head>
 <body>
