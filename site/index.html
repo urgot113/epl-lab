@@ -289,7 +289,9 @@
       return;
     }
 
-    document.getElementById('predMeta').textContent = `updatedAt=${PREDS.updatedAt}`;
+    const asOf = PREDS.asOfDate ? ` · asOf=${PREDS.asOfDate}` : '';
+    const base = PREDS.baseDate ? ` · from=${PREDS.baseDate}` : '';
+    document.getElementById('predMeta').textContent = `updatedAt=${PREDS.updatedAt}${asOf}${base}`;
 
     const rows = PREDS.upcoming.slice(0, 25);
     tbody.innerHTML = rows.map(x=>{

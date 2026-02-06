@@ -191,8 +191,18 @@ async function main() {
   const eloModel = computeElo(matches);
   const pois = computePoissonStrengths(matches);
 
+  const played = matches.filter(isPlayed).slice().sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+  const asOfDate = played.length ? played[played.length - 1].date : null;
+
+  // IMPORTANT:
+  // - Some data sources can lag; "asOfDate" is the last played match in the dataset.
+  // - Users typically want predictions relative to *today*.
+  // We filter upcoming by max(today, asOfDate+1).
+  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
+  const baseDate = asOfDate && asOfDate > today ? asOfDate : today;
+
   const upcoming = matches
-    .filter(m => m.date && !isPlayed(m))
+    .filter(m => m.date && !isPlayed(m) && m.date >= baseDate)
     .slice()
     .sort((a, b) => (a.date || '').localeCompare(b.date || ''))
     .map(m => {
@@ -211,6 +221,8 @@ async function main() {
   const out = {
     season: data.season,
     updatedAt: new Date().toISOString(),
+    asOfDate,
+    baseDate,
     source: data.source,
     model: {
       elo: { k: eloModel.k, homeAdv: eloModel.homeAdv, base: eloModel.base },
