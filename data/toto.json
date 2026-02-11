@@ -1,9 +1,9 @@
 {
   "meta": {
-    "baseDate": "2026-02-10",
-    "asOfDate": "2025-12-30",
+    "baseDate": "2026-02-11",
+    "asOfDate": "2026-02-07",
     "windowDays": 7,
-    "generatedAt": "2026-02-10T06:48:58.861Z",
+    "generatedAt": "2026-02-11T06:44:18.195Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
@@ -14,10 +14,10 @@
       "away": "Fulham",
       "match": "Manchester City vs Fulham",
       "pick": "H",
-      "prob": 0.7316448472299095,
+      "prob": 0.7199250826547196,
       "xg": [
-        2.3276450511945397,
-        0.7214545454545455
+        2.2017518804151193,
+        0.6818834338214184
       ],
       "ml": "2-0"
     },
@@ -28,10 +28,10 @@
       "away": "Manchester United",
       "match": "West Ham United vs Manchester United",
       "pick": "A",
-      "prob": 0.6393546204197802,
+      "prob": 0.6185157389509999,
       "xg": [
-        1.2696245733788398,
-        2.5117045454545455
+        1.3805579358278586,
+        2.527582953939543
       ],
       "ml": "1-2"
     },
@@ -42,52 +42,10 @@
       "away": "Leeds United",
       "match": "Chelsea vs Leeds United",
       "pick": "H",
-      "prob": 0.5534101259997095,
+      "prob": 0.5753698004326573,
       "xg": [
-        1.7034129692832765,
-        0.9370454545454545
-      ],
-      "ml": "1-0"
-    },
-    {
-      "date": "2026-02-11",
-      "round": "Matchday 26",
-      "home": "Everton",
-      "away": "Bournemouth",
-      "match": "Everton vs Bournemouth",
-      "pick": "H",
-      "prob": 0.4746149233962326,
-      "xg": [
-        1.666382252559727,
-        1.2329545454545454
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-02-11",
-      "round": "Matchday 26",
-      "home": "Aston Villa",
-      "away": "Brighton & Hove Albion",
-      "match": "Aston Villa vs Brighton & Hove Albion",
-      "pick": "H",
-      "prob": 0.4635899660346205,
-      "xg": [
-        1.4600682593856658,
-        1.0568181818181817
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-02-11",
-      "round": "Matchday 26",
-      "home": "Nottingham Forest",
-      "away": "Wolverhampton Wanderers",
-      "match": "Nottingham Forest vs Wolverhampton Wanderers",
-      "pick": "H",
-      "prob": 0.41901802430940494,
-      "xg": [
-        1.239867747440273,
-        0.9907670454545454
+        1.83280967342664,
+        0.9689922480620156
       ],
       "ml": "1-0"
     },
@@ -98,24 +56,24 @@
       "away": "Liverpool",
       "match": "Sunderland vs Liverpool",
       "pick": "H",
-      "prob": 0.417424342695823,
+      "prob": 0.47556123614493456,
       "xg": [
-        1.4896928327645051,
-        1.2963636363636364
+        1.553127677806341,
+        1.1074197120708749
       ],
       "ml": "1-1"
     },
     {
       "date": "2026-02-11",
       "round": "Matchday 26",
-      "home": "Crystal Palace",
-      "away": "Burnley",
-      "match": "Crystal Palace vs Burnley",
+      "home": "Aston Villa",
+      "away": "Brighton & Hove Albion",
+      "match": "Aston Villa vs Brighton & Hove Albion",
       "pick": "H",
-      "prob": 0.40111055418024505,
+      "prob": 0.4703566008250028,
       "xg": [
-        1.5348350398179749,
-        1.4278787878787877
+        1.4995715509854328,
+        1.0715311102908003
       ],
       "ml": "1-1"
     },
@@ -126,10 +84,38 @@
       "away": "Arsenal",
       "match": "Brentford vs Arsenal",
       "pick": "A",
-      "prob": 0.38805831553951614,
+      "prob": 0.43232376466606454,
       "xg": [
-        1.1849829351535837,
-        1.2850909090909088
+        1.0453362531340251,
+        1.3330052089742013
+      ],
+      "ml": "1-1"
+    },
+    {
+      "date": "2026-02-11",
+      "round": "Matchday 26",
+      "home": "Nottingham Forest",
+      "away": "Wolverhampton Wanderers",
+      "match": "Nottingham Forest vs Wolverhampton Wanderers",
+      "pick": "H",
+      "prob": 0.42718104941386437,
+      "xg": [
+        1.1663334285442255,
+        0.8664533858332308
+      ],
+      "ml": "1-0"
+    },
+    {
+      "date": "2026-02-11",
+      "round": "Matchday 26",
+      "home": "Crystal Palace",
+      "away": "Burnley",
+      "match": "Crystal Palace vs Burnley",
+      "pick": "H",
+      "prob": 0.415349645907705,
+      "xg": [
+        1.4321305023961408,
+        1.2381567614125755
       ],
       "ml": "1-1"
     },
@@ -140,17 +126,31 @@
       "away": "Newcastle United",
       "match": "Tottenham Hotspur vs Newcastle United",
       "pick": "H",
-      "prob": 0.38377591390036864,
+      "prob": 0.4103723698550067,
       "xg": [
-        1.0051194539249146,
-        0.8384090909090909
+        1.0949252594496808,
+        0.845945613387474
       ],
       "ml": "1-0"
+    },
+    {
+      "date": "2026-02-11",
+      "round": "Matchday 26",
+      "home": "Everton",
+      "away": "Bournemouth",
+      "match": "Everton vs Bournemouth",
+      "pick": "H",
+      "prob": 0.40826517856751987,
+      "xg": [
+        1.5709797200799773,
+        1.435544071202986
+      ],
+      "ml": "1-1"
     }
   ],
   "combos": {
     "2": {
-      "jointProb": 0.4677805135827669,
+      "jointProb": 0.44528499448754355,
       "games": [
         {
           "date": "2026-02-11",
@@ -159,10 +159,10 @@
           "away": "Fulham",
           "match": "Manchester City vs Fulham",
           "pick": "H",
-          "prob": 0.7316448472299095,
+          "prob": 0.7199250826547196,
           "xg": [
-            2.3276450511945397,
-            0.7214545454545455
+            2.2017518804151193,
+            0.6818834338214184
           ],
           "ml": "2-0"
         },
@@ -173,17 +173,17 @@
           "away": "Manchester United",
           "match": "West Ham United vs Manchester United",
           "pick": "A",
-          "prob": 0.6393546204197802,
+          "prob": 0.6185157389509999,
           "xg": [
-            1.2696245733788398,
-            2.5117045454545455
+            1.3805579358278586,
+            2.527582953939543
           ],
           "ml": "1-2"
         }
       ]
     },
     "3": {
-      "jointProb": 0.25887447296204785,
+      "jointProb": 0.2562035384139548,
       "games": [
         {
           "date": "2026-02-11",
@@ -192,10 +192,10 @@
           "away": "Fulham",
           "match": "Manchester City vs Fulham",
           "pick": "H",
-          "prob": 0.7316448472299095,
+          "prob": 0.7199250826547196,
           "xg": [
-            2.3276450511945397,
-            0.7214545454545455
+            2.2017518804151193,
+            0.6818834338214184
           ],
           "ml": "2-0"
         },
@@ -206,10 +206,10 @@
           "away": "Manchester United",
           "match": "West Ham United vs Manchester United",
           "pick": "A",
-          "prob": 0.6393546204197802,
+          "prob": 0.6185157389509999,
           "xg": [
-            1.2696245733788398,
-            2.5117045454545455
+            1.3805579358278586,
+            2.527582953939543
           ],
           "ml": "1-2"
         },
@@ -220,17 +220,17 @@
           "away": "Leeds United",
           "match": "Chelsea vs Leeds United",
           "pick": "H",
-          "prob": 0.5534101259997095,
+          "prob": 0.5753698004326573,
           "xg": [
-            1.7034129692832765,
-            0.9370454545454545
+            1.83280967342664,
+            0.9689922480620156
           ],
           "ml": "1-0"
         }
       ]
     },
     "4": {
-      "jointProb": 0.12286568815412244,
+      "jointProb": 0.12184047143284658,
       "games": [
         {
           "date": "2026-02-11",
@@ -239,10 +239,10 @@
           "away": "Fulham",
           "match": "Manchester City vs Fulham",
           "pick": "H",
-          "prob": 0.7316448472299095,
+          "prob": 0.7199250826547196,
           "xg": [
-            2.3276450511945397,
-            0.7214545454545455
+            2.2017518804151193,
+            0.6818834338214184
           ],
           "ml": "2-0"
         },
@@ -253,10 +253,10 @@
           "away": "Manchester United",
           "match": "West Ham United vs Manchester United",
           "pick": "A",
-          "prob": 0.6393546204197802,
+          "prob": 0.6185157389509999,
           "xg": [
-            1.2696245733788398,
-            2.5117045454545455
+            1.3805579358278586,
+            2.527582953939543
           ],
           "ml": "1-2"
         },
@@ -267,31 +267,31 @@
           "away": "Leeds United",
           "match": "Chelsea vs Leeds United",
           "pick": "H",
-          "prob": 0.5534101259997095,
+          "prob": 0.5753698004326573,
           "xg": [
-            1.7034129692832765,
-            0.9370454545454545
+            1.83280967342664,
+            0.9689922480620156
           ],
           "ml": "1-0"
         },
         {
           "date": "2026-02-11",
           "round": "Matchday 26",
-          "home": "Everton",
-          "away": "Bournemouth",
-          "match": "Everton vs Bournemouth",
+          "home": "Sunderland",
+          "away": "Liverpool",
+          "match": "Sunderland vs Liverpool",
           "pick": "H",
-          "prob": 0.4746149233962326,
+          "prob": 0.47556123614493456,
           "xg": [
-            1.666382252559727,
-            1.2329545454545454
+            1.553127677806341,
+            1.1074197120708749
           ],
           "ml": "1-1"
         }
       ]
     },
     "5": {
-      "jointProb": 0.05695930019818989,
+      "jointProb": 0.05730846998606958,
       "games": [
         {
           "date": "2026-02-11",
@@ -300,10 +300,10 @@
           "away": "Fulham",
           "match": "Manchester City vs Fulham",
           "pick": "H",
-          "prob": 0.7316448472299095,
+          "prob": 0.7199250826547196,
           "xg": [
-            2.3276450511945397,
-            0.7214545454545455
+            2.2017518804151193,
+            0.6818834338214184
           ],
           "ml": "2-0"
         },
@@ -314,10 +314,10 @@
           "away": "Manchester United",
           "match": "West Ham United vs Manchester United",
           "pick": "A",
-          "prob": 0.6393546204197802,
+          "prob": 0.6185157389509999,
           "xg": [
-            1.2696245733788398,
-            2.5117045454545455
+            1.3805579358278586,
+            2.527582953939543
           ],
           "ml": "1-2"
         },
@@ -328,24 +328,24 @@
           "away": "Leeds United",
           "match": "Chelsea vs Leeds United",
           "pick": "H",
-          "prob": 0.5534101259997095,
+          "prob": 0.5753698004326573,
           "xg": [
-            1.7034129692832765,
-            0.9370454545454545
+            1.83280967342664,
+            0.9689922480620156
           ],
           "ml": "1-0"
         },
         {
           "date": "2026-02-11",
           "round": "Matchday 26",
-          "home": "Everton",
-          "away": "Bournemouth",
-          "match": "Everton vs Bournemouth",
+          "home": "Sunderland",
+          "away": "Liverpool",
+          "match": "Sunderland vs Liverpool",
           "pick": "H",
-          "prob": 0.4746149233962326,
+          "prob": 0.47556123614493456,
           "xg": [
-            1.666382252559727,
-            1.2329545454545454
+            1.553127677806341,
+            1.1074197120708749
           ],
           "ml": "1-1"
         },
@@ -356,17 +356,17 @@
           "away": "Brighton & Hove Albion",
           "match": "Aston Villa vs Brighton & Hove Albion",
           "pick": "H",
-          "prob": 0.4635899660346205,
+          "prob": 0.4703566008250028,
           "xg": [
-            1.4600682593856658,
-            1.0568181818181817
+            1.4995715509854328,
+            1.0715311102908003
           ],
           "ml": "1-1"
         }
       ]
     },
     "6": {
-      "jointProb": 0.023866973435091827,
+      "jointProb": 0.02477581349162977,
       "games": [
         {
           "date": "2026-02-11",
@@ -375,10 +375,10 @@
           "away": "Fulham",
           "match": "Manchester City vs Fulham",
           "pick": "H",
-          "prob": 0.7316448472299095,
+          "prob": 0.7199250826547196,
           "xg": [
-            2.3276450511945397,
-            0.7214545454545455
+            2.2017518804151193,
+            0.6818834338214184
           ],
           "ml": "2-0"
         },
@@ -389,10 +389,10 @@
           "away": "Manchester United",
           "match": "West Ham United vs Manchester United",
           "pick": "A",
-          "prob": 0.6393546204197802,
+          "prob": 0.6185157389509999,
           "xg": [
-            1.2696245733788398,
-            2.5117045454545455
+            1.3805579358278586,
+            2.527582953939543
           ],
           "ml": "1-2"
         },
@@ -403,141 +403,10 @@
           "away": "Leeds United",
           "match": "Chelsea vs Leeds United",
           "pick": "H",
-          "prob": 0.5534101259997095,
+          "prob": 0.5753698004326573,
           "xg": [
-            1.7034129692832765,
-            0.9370454545454545
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Everton",
-          "away": "Bournemouth",
-          "match": "Everton vs Bournemouth",
-          "pick": "H",
-          "prob": 0.4746149233962326,
-          "xg": [
-            1.666382252559727,
-            1.2329545454545454
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Aston Villa",
-          "away": "Brighton & Hove Albion",
-          "match": "Aston Villa vs Brighton & Hove Albion",
-          "pick": "H",
-          "prob": 0.4635899660346205,
-          "xg": [
-            1.4600682593856658,
-            1.0568181818181817
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Nottingham Forest",
-          "away": "Wolverhampton Wanderers",
-          "match": "Nottingham Forest vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.41901802430940494,
-          "xg": [
-            1.239867747440273,
-            0.9907670454545454
-          ],
-          "ml": "1-0"
-        }
-      ]
-    },
-    "7": {
-      "jointProb": 0.009962655698281874,
-      "games": [
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Manchester City",
-          "away": "Fulham",
-          "match": "Manchester City vs Fulham",
-          "pick": "H",
-          "prob": 0.7316448472299095,
-          "xg": [
-            2.3276450511945397,
-            0.7214545454545455
-          ],
-          "ml": "2-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "West Ham United",
-          "away": "Manchester United",
-          "match": "West Ham United vs Manchester United",
-          "pick": "A",
-          "prob": 0.6393546204197802,
-          "xg": [
-            1.2696245733788398,
-            2.5117045454545455
-          ],
-          "ml": "1-2"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Chelsea",
-          "away": "Leeds United",
-          "match": "Chelsea vs Leeds United",
-          "pick": "H",
-          "prob": 0.5534101259997095,
-          "xg": [
-            1.7034129692832765,
-            0.9370454545454545
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Everton",
-          "away": "Bournemouth",
-          "match": "Everton vs Bournemouth",
-          "pick": "H",
-          "prob": 0.4746149233962326,
-          "xg": [
-            1.666382252559727,
-            1.2329545454545454
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Aston Villa",
-          "away": "Brighton & Hove Albion",
-          "match": "Aston Villa vs Brighton & Hove Albion",
-          "pick": "H",
-          "prob": 0.4635899660346205,
-          "xg": [
-            1.4600682593856658,
-            1.0568181818181817
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Nottingham Forest",
-          "away": "Wolverhampton Wanderers",
-          "match": "Nottingham Forest vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.41901802430940494,
-          "xg": [
-            1.239867747440273,
-            0.9907670454545454
+            1.83280967342664,
+            0.9689922480620156
           ],
           "ml": "1-0"
         },
@@ -548,17 +417,148 @@
           "away": "Liverpool",
           "match": "Sunderland vs Liverpool",
           "pick": "H",
-          "prob": 0.417424342695823,
+          "prob": 0.47556123614493456,
           "xg": [
-            1.4896928327645051,
-            1.2963636363636364
+            1.553127677806341,
+            1.1074197120708749
           ],
           "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Aston Villa",
+          "away": "Brighton & Hove Albion",
+          "match": "Aston Villa vs Brighton & Hove Albion",
+          "pick": "H",
+          "prob": 0.4703566008250028,
+          "xg": [
+            1.4995715509854328,
+            1.0715311102908003
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Brentford",
+          "away": "Arsenal",
+          "match": "Brentford vs Arsenal",
+          "pick": "A",
+          "prob": 0.43232376466606454,
+          "xg": [
+            1.0453362531340251,
+            1.3330052089742013
+          ],
+          "ml": "1-1"
+        }
+      ]
+    },
+    "7": {
+      "jointProb": 0.010583758007436583,
+      "games": [
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Manchester City",
+          "away": "Fulham",
+          "match": "Manchester City vs Fulham",
+          "pick": "H",
+          "prob": 0.7199250826547196,
+          "xg": [
+            2.2017518804151193,
+            0.6818834338214184
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "West Ham United",
+          "away": "Manchester United",
+          "match": "West Ham United vs Manchester United",
+          "pick": "A",
+          "prob": 0.6185157389509999,
+          "xg": [
+            1.3805579358278586,
+            2.527582953939543
+          ],
+          "ml": "1-2"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Chelsea",
+          "away": "Leeds United",
+          "match": "Chelsea vs Leeds United",
+          "pick": "H",
+          "prob": 0.5753698004326573,
+          "xg": [
+            1.83280967342664,
+            0.9689922480620156
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Sunderland",
+          "away": "Liverpool",
+          "match": "Sunderland vs Liverpool",
+          "pick": "H",
+          "prob": 0.47556123614493456,
+          "xg": [
+            1.553127677806341,
+            1.1074197120708749
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Aston Villa",
+          "away": "Brighton & Hove Albion",
+          "match": "Aston Villa vs Brighton & Hove Albion",
+          "pick": "H",
+          "prob": 0.4703566008250028,
+          "xg": [
+            1.4995715509854328,
+            1.0715311102908003
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Brentford",
+          "away": "Arsenal",
+          "match": "Brentford vs Arsenal",
+          "pick": "A",
+          "prob": 0.43232376466606454,
+          "xg": [
+            1.0453362531340251,
+            1.3330052089742013
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Nottingham Forest",
+          "away": "Wolverhampton Wanderers",
+          "match": "Nottingham Forest vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.42718104941386437,
+          "xg": [
+            1.1663334285442255,
+            0.8664533858332308
+          ],
+          "ml": "1-0"
         }
       ]
     },
     "8": {
-      "jointProb": 0.003996126348244818,
+      "jointProb": 0.004395960140761622,
       "games": [
         {
           "date": "2026-02-11",
@@ -567,10 +567,10 @@
           "away": "Fulham",
           "match": "Manchester City vs Fulham",
           "pick": "H",
-          "prob": 0.7316448472299095,
+          "prob": 0.7199250826547196,
           "xg": [
-            2.3276450511945397,
-            0.7214545454545455
+            2.2017518804151193,
+            0.6818834338214184
           ],
           "ml": "2-0"
         },
@@ -581,10 +581,10 @@
           "away": "Manchester United",
           "match": "West Ham United vs Manchester United",
           "pick": "A",
-          "prob": 0.6393546204197802,
+          "prob": 0.6185157389509999,
           "xg": [
-            1.2696245733788398,
-            2.5117045454545455
+            1.3805579358278586,
+            2.527582953939543
           ],
           "ml": "1-2"
         },
@@ -595,52 +595,10 @@
           "away": "Leeds United",
           "match": "Chelsea vs Leeds United",
           "pick": "H",
-          "prob": 0.5534101259997095,
+          "prob": 0.5753698004326573,
           "xg": [
-            1.7034129692832765,
-            0.9370454545454545
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Everton",
-          "away": "Bournemouth",
-          "match": "Everton vs Bournemouth",
-          "pick": "H",
-          "prob": 0.4746149233962326,
-          "xg": [
-            1.666382252559727,
-            1.2329545454545454
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Aston Villa",
-          "away": "Brighton & Hove Albion",
-          "match": "Aston Villa vs Brighton & Hove Albion",
-          "pick": "H",
-          "prob": 0.4635899660346205,
-          "xg": [
-            1.4600682593856658,
-            1.0568181818181817
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Nottingham Forest",
-          "away": "Wolverhampton Wanderers",
-          "match": "Nottingham Forest vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.41901802430940494,
-          "xg": [
-            1.239867747440273,
-            0.9907670454545454
+            1.83280967342664,
+            0.9689922480620156
           ],
           "ml": "1-0"
         },
@@ -651,12 +609,54 @@
           "away": "Liverpool",
           "match": "Sunderland vs Liverpool",
           "pick": "H",
-          "prob": 0.417424342695823,
+          "prob": 0.47556123614493456,
           "xg": [
-            1.4896928327645051,
-            1.2963636363636364
+            1.553127677806341,
+            1.1074197120708749
           ],
           "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Aston Villa",
+          "away": "Brighton & Hove Albion",
+          "match": "Aston Villa vs Brighton & Hove Albion",
+          "pick": "H",
+          "prob": 0.4703566008250028,
+          "xg": [
+            1.4995715509854328,
+            1.0715311102908003
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Brentford",
+          "away": "Arsenal",
+          "match": "Brentford vs Arsenal",
+          "pick": "A",
+          "prob": 0.43232376466606454,
+          "xg": [
+            1.0453362531340251,
+            1.3330052089742013
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Nottingham Forest",
+          "away": "Wolverhampton Wanderers",
+          "match": "Nottingham Forest vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.42718104941386437,
+          "xg": [
+            1.1663334285442255,
+            0.8664533858332308
+          ],
+          "ml": "1-0"
         },
         {
           "date": "2026-02-11",
@@ -665,17 +665,17 @@
           "away": "Burnley",
           "match": "Crystal Palace vs Burnley",
           "pick": "H",
-          "prob": 0.40111055418024505,
+          "prob": 0.415349645907705,
           "xg": [
-            1.5348350398179749,
-            1.4278787878787877
+            1.4321305023961408,
+            1.2381567614125755
           ],
           "ml": "1-1"
         }
       ]
     },
     "9": {
-      "jointProb": 0.001550730059382962,
+      "jointProb": 0.0018039805807524955,
       "games": [
         {
           "date": "2026-02-11",
@@ -684,10 +684,10 @@
           "away": "Fulham",
           "match": "Manchester City vs Fulham",
           "pick": "H",
-          "prob": 0.7316448472299095,
+          "prob": 0.7199250826547196,
           "xg": [
-            2.3276450511945397,
-            0.7214545454545455
+            2.2017518804151193,
+            0.6818834338214184
           ],
           "ml": "2-0"
         },
@@ -698,10 +698,10 @@
           "away": "Manchester United",
           "match": "West Ham United vs Manchester United",
           "pick": "A",
-          "prob": 0.6393546204197802,
+          "prob": 0.6185157389509999,
           "xg": [
-            1.2696245733788398,
-            2.5117045454545455
+            1.3805579358278586,
+            2.527582953939543
           ],
           "ml": "1-2"
         },
@@ -712,52 +712,10 @@
           "away": "Leeds United",
           "match": "Chelsea vs Leeds United",
           "pick": "H",
-          "prob": 0.5534101259997095,
+          "prob": 0.5753698004326573,
           "xg": [
-            1.7034129692832765,
-            0.9370454545454545
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Everton",
-          "away": "Bournemouth",
-          "match": "Everton vs Bournemouth",
-          "pick": "H",
-          "prob": 0.4746149233962326,
-          "xg": [
-            1.666382252559727,
-            1.2329545454545454
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Aston Villa",
-          "away": "Brighton & Hove Albion",
-          "match": "Aston Villa vs Brighton & Hove Albion",
-          "pick": "H",
-          "prob": 0.4635899660346205,
-          "xg": [
-            1.4600682593856658,
-            1.0568181818181817
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Nottingham Forest",
-          "away": "Wolverhampton Wanderers",
-          "match": "Nottingham Forest vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.41901802430940494,
-          "xg": [
-            1.239867747440273,
-            0.9907670454545454
+            1.83280967342664,
+            0.9689922480620156
           ],
           "ml": "1-0"
         },
@@ -768,99 +726,10 @@
           "away": "Liverpool",
           "match": "Sunderland vs Liverpool",
           "pick": "H",
-          "prob": 0.417424342695823,
+          "prob": 0.47556123614493456,
           "xg": [
-            1.4896928327645051,
-            1.2963636363636364
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Crystal Palace",
-          "away": "Burnley",
-          "match": "Crystal Palace vs Burnley",
-          "pick": "H",
-          "prob": 0.40111055418024505,
-          "xg": [
-            1.5348350398179749,
-            1.4278787878787877
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Brentford",
-          "away": "Arsenal",
-          "match": "Brentford vs Arsenal",
-          "pick": "A",
-          "prob": 0.38805831553951614,
-          "xg": [
-            1.1849829351535837,
-            1.2850909090909088
-          ],
-          "ml": "1-1"
-        }
-      ]
-    },
-    "10": {
-      "jointProb": 0.0005951328457524692,
-      "games": [
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Manchester City",
-          "away": "Fulham",
-          "match": "Manchester City vs Fulham",
-          "pick": "H",
-          "prob": 0.7316448472299095,
-          "xg": [
-            2.3276450511945397,
-            0.7214545454545455
-          ],
-          "ml": "2-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "West Ham United",
-          "away": "Manchester United",
-          "match": "West Ham United vs Manchester United",
-          "pick": "A",
-          "prob": 0.6393546204197802,
-          "xg": [
-            1.2696245733788398,
-            2.5117045454545455
-          ],
-          "ml": "1-2"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Chelsea",
-          "away": "Leeds United",
-          "match": "Chelsea vs Leeds United",
-          "pick": "H",
-          "prob": 0.5534101259997095,
-          "xg": [
-            1.7034129692832765,
-            0.9370454545454545
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Everton",
-          "away": "Bournemouth",
-          "match": "Everton vs Bournemouth",
-          "pick": "H",
-          "prob": 0.4746149233962326,
-          "xg": [
-            1.666382252559727,
-            1.2329545454545454
+            1.553127677806341,
+            1.1074197120708749
           ],
           "ml": "1-1"
         },
@@ -871,52 +740,10 @@
           "away": "Brighton & Hove Albion",
           "match": "Aston Villa vs Brighton & Hove Albion",
           "pick": "H",
-          "prob": 0.4635899660346205,
+          "prob": 0.4703566008250028,
           "xg": [
-            1.4600682593856658,
-            1.0568181818181817
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Nottingham Forest",
-          "away": "Wolverhampton Wanderers",
-          "match": "Nottingham Forest vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.41901802430940494,
-          "xg": [
-            1.239867747440273,
-            0.9907670454545454
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Sunderland",
-          "away": "Liverpool",
-          "match": "Sunderland vs Liverpool",
-          "pick": "H",
-          "prob": 0.417424342695823,
-          "xg": [
-            1.4896928327645051,
-            1.2963636363636364
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-11",
-          "round": "Matchday 26",
-          "home": "Crystal Palace",
-          "away": "Burnley",
-          "match": "Crystal Palace vs Burnley",
-          "pick": "H",
-          "prob": 0.40111055418024505,
-          "xg": [
-            1.5348350398179749,
-            1.4278787878787877
+            1.4995715509854328,
+            1.0715311102908003
           ],
           "ml": "1-1"
         },
@@ -927,10 +754,38 @@
           "away": "Arsenal",
           "match": "Brentford vs Arsenal",
           "pick": "A",
-          "prob": 0.38805831553951614,
+          "prob": 0.43232376466606454,
           "xg": [
-            1.1849829351535837,
-            1.2850909090909088
+            1.0453362531340251,
+            1.3330052089742013
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Nottingham Forest",
+          "away": "Wolverhampton Wanderers",
+          "match": "Nottingham Forest vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.42718104941386437,
+          "xg": [
+            1.1663334285442255,
+            0.8664533858332308
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Crystal Palace",
+          "away": "Burnley",
+          "match": "Crystal Palace vs Burnley",
+          "pick": "H",
+          "prob": 0.415349645907705,
+          "xg": [
+            1.4321305023961408,
+            1.2381567614125755
           ],
           "ml": "1-1"
         },
@@ -941,12 +796,157 @@
           "away": "Newcastle United",
           "match": "Tottenham Hotspur vs Newcastle United",
           "pick": "H",
-          "prob": 0.38377591390036864,
+          "prob": 0.4103723698550067,
           "xg": [
-            1.0051194539249146,
-            0.8384090909090909
+            1.0949252594496808,
+            0.845945613387474
           ],
           "ml": "1-0"
+        }
+      ]
+    },
+    "10": {
+      "jointProb": 0.0007365024539332558,
+      "games": [
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Manchester City",
+          "away": "Fulham",
+          "match": "Manchester City vs Fulham",
+          "pick": "H",
+          "prob": 0.7199250826547196,
+          "xg": [
+            2.2017518804151193,
+            0.6818834338214184
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "West Ham United",
+          "away": "Manchester United",
+          "match": "West Ham United vs Manchester United",
+          "pick": "A",
+          "prob": 0.6185157389509999,
+          "xg": [
+            1.3805579358278586,
+            2.527582953939543
+          ],
+          "ml": "1-2"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Chelsea",
+          "away": "Leeds United",
+          "match": "Chelsea vs Leeds United",
+          "pick": "H",
+          "prob": 0.5753698004326573,
+          "xg": [
+            1.83280967342664,
+            0.9689922480620156
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Sunderland",
+          "away": "Liverpool",
+          "match": "Sunderland vs Liverpool",
+          "pick": "H",
+          "prob": 0.47556123614493456,
+          "xg": [
+            1.553127677806341,
+            1.1074197120708749
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Aston Villa",
+          "away": "Brighton & Hove Albion",
+          "match": "Aston Villa vs Brighton & Hove Albion",
+          "pick": "H",
+          "prob": 0.4703566008250028,
+          "xg": [
+            1.4995715509854328,
+            1.0715311102908003
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Brentford",
+          "away": "Arsenal",
+          "match": "Brentford vs Arsenal",
+          "pick": "A",
+          "prob": 0.43232376466606454,
+          "xg": [
+            1.0453362531340251,
+            1.3330052089742013
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Nottingham Forest",
+          "away": "Wolverhampton Wanderers",
+          "match": "Nottingham Forest vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.42718104941386437,
+          "xg": [
+            1.1663334285442255,
+            0.8664533858332308
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Crystal Palace",
+          "away": "Burnley",
+          "match": "Crystal Palace vs Burnley",
+          "pick": "H",
+          "prob": 0.415349645907705,
+          "xg": [
+            1.4321305023961408,
+            1.2381567614125755
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Tottenham Hotspur",
+          "away": "Newcastle United",
+          "match": "Tottenham Hotspur vs Newcastle United",
+          "pick": "H",
+          "prob": 0.4103723698550067,
+          "xg": [
+            1.0949252594496808,
+            0.845945613387474
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-02-11",
+          "round": "Matchday 26",
+          "home": "Everton",
+          "away": "Bournemouth",
+          "match": "Everton vs Bournemouth",
+          "pick": "H",
+          "prob": 0.40826517856751987,
+          "xg": [
+            1.5709797200799773,
+            1.435544071202986
+          ],
+          "ml": "1-1"
         }
       ]
     }
