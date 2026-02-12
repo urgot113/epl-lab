@@ -1,6 +1,6 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-02-11T06:44:17.921Z",
+  "updatedAt": "2026-02-12T06:43:31.824Z",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "matches": [
     {
@@ -2007,24 +2007,24 @@
       "date": "2026-02-11",
       "home": "Sunderland",
       "away": "Liverpool",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 1,
       "round": "Matchday 26"
     },
     {
       "date": "2026-02-11",
       "home": "Aston Villa",
       "away": "Brighton & Hove Albion",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 0,
       "round": "Matchday 26"
     },
     {
       "date": "2026-02-11",
       "home": "Crystal Palace",
       "away": "Burnley",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 3,
       "round": "Matchday 26"
     },
     {
@@ -2055,16 +2055,16 @@
       "date": "2026-02-11",
       "home": "Manchester City",
       "away": "Fulham",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 0,
       "round": "Matchday 26"
     },
     {
       "date": "2026-02-11",
       "home": "Nottingham Forest",
       "away": "Wolverhampton Wanderers",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 0,
       "round": "Matchday 26"
     },
     {
@@ -2079,8 +2079,8 @@
       "date": "2026-02-11",
       "home": "West Ham United",
       "away": "Manchester United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "round": "Matchday 26"
     },
     {
