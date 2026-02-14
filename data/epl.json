@@ -1,6 +1,6 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-02-13T06:39:51.769Z",
+  "updatedAt": "2026-02-14T05:59:19.791Z",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "matches": [
     {
@@ -2031,24 +2031,24 @@
       "date": "2026-02-11",
       "home": "Brentford",
       "away": "Arsenal",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "round": "Matchday 26"
     },
     {
       "date": "2026-02-11",
       "home": "Chelsea",
       "away": "Leeds United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "round": "Matchday 26"
     },
     {
       "date": "2026-02-11",
       "home": "Everton",
       "away": "Bournemouth",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 2,
       "round": "Matchday 26"
     },
     {
@@ -2071,8 +2071,8 @@
       "date": "2026-02-11",
       "home": "Tottenham Hotspur",
       "away": "Newcastle United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 2,
       "round": "Matchday 26"
     },
     {
