@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-02-22T06:05:52.786Z",
+  "updatedAt": "2026-02-23T06:46:54.532Z",
   "asOfDate": "2026-02-12",
-  "baseDate": "2026-02-22",
+  "baseDate": "2026-02-23",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,110 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-02-22",
-      "round": "Matchday 27",
-      "home": "Sunderland",
-      "away": "Fulham",
-      "elo": {
-        "pHome": 0.44206027004682713,
-        "pDraw": 0.2689262012705737,
-        "pAway": 0.2890135286825991,
-        "diff": 73.82532486284231,
-        "Rh": 1499.5289121467374,
-        "Ra": 1485.703587283895
-      },
-      "poisson": {
-        "lambdaHome": 1.6667472592756336,
-        "lambdaAway": 0.8481114246511507,
-        "pHome": 0.5670573374072372,
-        "pDraw": 0.24295327221163976,
-        "pAway": 0.1899893903811231,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 0,
-          "p": 0.1347970849463939
-        }
-      }
-    },
-    {
-      "date": "2026-02-22",
-      "round": "Matchday 27",
-      "home": "Crystal Palace",
-      "away": "Wolverhampton Wanderers",
-      "elo": {
-        "pHome": 0.5276611505497464,
-        "pDraw": 0.2566842199359885,
-        "pAway": 0.21565462951426517,
-        "diff": 155.43853376007678,
-        "Rh": 1473.5716779191328,
-        "Ra": 1378.133144159056
-      },
-      "poisson": {
-        "lambdaHome": 1.0560855479030955,
-        "lambdaAway": 0.7583641839473253,
-        "pHome": 0.419684047112438,
-        "pDraw": 0.3220300922899996,
-        "pAway": 0.25828586059756237,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 0,
-          "p": 0.1720654177752013
-        }
-      }
-    },
-    {
-      "date": "2026-02-22",
-      "round": "Matchday 27",
-      "home": "Nottingham Forest",
-      "away": "Liverpool",
-      "elo": {
-        "pHome": 0.35278337700018886,
-        "pDraw": 0.27887547236476357,
-        "pAway": 0.36834115063504763,
-        "diff": -7.496850901576408,
-        "Rh": 1458.2685188466914,
-        "Ra": 1525.7653697482679
-      },
-      "poisson": {
-        "lambdaHome": 1.0938028888996347,
-        "lambdaAway": 1.6333997808096237,
-        "pHome": 0.25493518776604407,
-        "pDraw": 0.2464504880517424,
-        "pAway": 0.49861432418221346,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11684832428057368
-        }
-      }
-    },
-    {
-      "date": "2026-02-22",
-      "round": "Matchday 27",
-      "home": "Tottenham Hotspur",
-      "away": "Arsenal",
-      "elo": {
-        "pHome": 0.28057615783720263,
-        "pDraw": 0.2675839728615455,
-        "pAway": 0.4518398693012519,
-        "diff": -82.77351425636357,
-        "Rh": 1457.536033132204,
-        "Ra": 1600.3095473885676
-      },
-      "poisson": {
-        "lambdaHome": 0.7758995862145189,
-        "lambdaAway": 1.5750640743521371,
-        "pHome": 0.183926056518336,
-        "pDraw": 0.2528207868067025,
-        "pAway": 0.5632531566749615,
-        "mostLikelyScore": {
-          "home": 0,
-          "away": 1,
-          "p": 0.15006785702861047
-        }
-      }
-    },
     {
       "date": "2026-02-23",
       "round": "Matchday 27",
