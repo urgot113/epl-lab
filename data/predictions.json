@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-02-23T06:46:54.532Z",
+  "updatedAt": "2026-02-24T06:39:53.415Z",
   "asOfDate": "2026-02-12",
-  "baseDate": "2026-02-23",
+  "baseDate": "2026-02-24",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-02-23",
-      "round": "Matchday 27",
-      "home": "Everton",
-      "away": "Manchester United",
-      "elo": {
-        "pHome": 0.3740039104350792,
-        "pDraw": 0.27811340052195677,
-        "pAway": 0.34788268904296404,
-        "diff": 12.577329853621904,
-        "Rh": 1506.77910032733,
-        "Ra": 1554.2017704737082
-      },
-      "poisson": {
-        "lambdaHome": 1.2931659770241983,
-        "lambdaAway": 1.7500711937245967,
-        "pHome": 0.2841231250888483,
-        "pDraw": 0.23498051612842943,
-        "pAway": 0.48089635878272224,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.10790681545888316
-        }
-      }
-    },
     {
       "date": "2026-02-27",
       "round": "Matchday 28",
