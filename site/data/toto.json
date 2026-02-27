@@ -1,9 +1,9 @@
 {
   "meta": {
-    "baseDate": "2026-02-26",
+    "baseDate": "2026-02-27",
     "asOfDate": "2026-02-23",
     "windowDays": 7,
-    "generatedAt": "2026-02-26T06:38:33.643Z",
+    "generatedAt": "2026-02-27T06:07:58.790Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
@@ -76,6 +76,20 @@
         0.810837025407498
       ],
       "ml": "1-0"
+    },
+    {
+      "date": "2026-03-05",
+      "round": "Matchday 29",
+      "home": "Tottenham Hotspur",
+      "away": "Crystal Palace",
+      "match": "Tottenham Hotspur vs Crystal Palace",
+      "pick": "A",
+      "prob": 0.4876690716123318,
+      "xg": [
+        0.9566752246469834,
+        1.4601749180071841
+      ],
+      "ml": "0-1"
     },
     {
       "date": "2026-03-04",
@@ -158,20 +172,6 @@
       "xg": [
         1.64786163097088,
         1.2296209835849972
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-03-03",
-      "round": "Matchday 29",
-      "home": "Bournemouth",
-      "away": "Brentford",
-      "match": "Bournemouth vs Brentford",
-      "pick": "H",
-      "prob": 0.45598857678522087,
-      "xg": [
-        1.5380041889061549,
-        1.1761592016899973
       ],
       "ml": "1-1"
     }
@@ -394,7 +394,7 @@
       ]
     },
     "6": {
-      "jointProb": 0.04112306772969956,
+      "jointProb": 0.041416347611557415,
       "games": [
         {
           "date": "2026-03-04",
@@ -467,23 +467,23 @@
           "ml": "1-0"
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "round": "Matchday 29",
-          "home": "Brighton & Hove Albion",
-          "away": "Arsenal",
-          "match": "Brighton & Hove Albion vs Arsenal",
+          "home": "Tottenham Hotspur",
+          "away": "Crystal Palace",
+          "match": "Tottenham Hotspur vs Crystal Palace",
           "pick": "A",
-          "prob": 0.4842157606383751,
+          "prob": 0.4876690716123318,
           "xg": [
-            0.9740693196405649,
-            1.4631980544833896
+            0.9566752246469834,
+            1.4601749180071841
           ],
           "ml": "0-1"
         }
       ]
     },
     "7": {
-      "jointProb": 0.019808816516771667,
+      "jointProb": 0.020054448261593624,
       "games": [
         {
           "date": "2026-03-04",
@@ -556,6 +556,20 @@
           "ml": "1-0"
         },
         {
+          "date": "2026-03-05",
+          "round": "Matchday 29",
+          "home": "Tottenham Hotspur",
+          "away": "Crystal Palace",
+          "match": "Tottenham Hotspur vs Crystal Palace",
+          "pick": "A",
+          "prob": 0.4876690716123318,
+          "xg": [
+            0.9566752246469834,
+            1.4601749180071841
+          ],
+          "ml": "0-1"
+        },
+        {
           "date": "2026-03-04",
           "round": "Matchday 29",
           "home": "Brighton & Hove Albion",
@@ -568,25 +582,11 @@
             1.4631980544833896
           ],
           "ml": "0-1"
-        },
-        {
-          "date": "2026-03-01",
-          "round": "Matchday 28",
-          "home": "Arsenal",
-          "away": "Chelsea",
-          "match": "Arsenal vs Chelsea",
-          "pick": "H",
-          "prob": 0.4816959825802468,
-          "xg": [
-            1.642368758867644,
-            1.1761592016899973
-          ],
-          "ml": "1-1"
         }
       ]
     },
     "8": {
-      "jointProb": 0.009525860189493671,
+      "jointProb": 0.009660147160473063,
       "games": [
         {
           "date": "2026-03-04",
@@ -659,6 +659,20 @@
           "ml": "1-0"
         },
         {
+          "date": "2026-03-05",
+          "round": "Matchday 29",
+          "home": "Tottenham Hotspur",
+          "away": "Crystal Palace",
+          "match": "Tottenham Hotspur vs Crystal Palace",
+          "pick": "A",
+          "prob": 0.4876690716123318,
+          "xg": [
+            0.9566752246469834,
+            1.4601749180071841
+          ],
+          "ml": "0-1"
+        },
+        {
           "date": "2026-03-04",
           "round": "Matchday 29",
           "home": "Brighton & Hove Albion",
@@ -683,27 +697,13 @@
           "xg": [
             1.642368758867644,
             1.1761592016899973
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-02-28",
-          "round": "Matchday 28",
-          "home": "Liverpool",
-          "away": "West Ham United",
-          "match": "Liverpool vs West Ham United",
-          "pick": "H",
-          "prob": 0.48088991997216723,
-          "xg": [
-            1.5929329099385177,
-            1.1271525682862473
           ],
           "ml": "1-1"
         }
       ]
     },
     "9": {
-      "jointProb": 0.004528808023664988,
+      "jointProb": 0.0046454673949192496,
       "games": [
         {
           "date": "2026-03-04",
@@ -776,6 +776,20 @@
           "ml": "1-0"
         },
         {
+          "date": "2026-03-05",
+          "round": "Matchday 29",
+          "home": "Tottenham Hotspur",
+          "away": "Crystal Palace",
+          "match": "Tottenham Hotspur vs Crystal Palace",
+          "pick": "A",
+          "prob": 0.4876690716123318,
+          "xg": [
+            0.9566752246469834,
+            1.4601749180071841
+          ],
+          "ml": "0-1"
+        },
+        {
           "date": "2026-03-04",
           "round": "Matchday 29",
           "home": "Brighton & Hove Albion",
@@ -816,25 +830,11 @@
             1.1271525682862473
           ],
           "ml": "1-1"
-        },
-        {
-          "date": "2026-03-01",
-          "round": "Matchday 28",
-          "home": "Brighton & Hove Albion",
-          "away": "Nottingham Forest",
-          "match": "Brighton & Hove Albion vs Nottingham Forest",
-          "pick": "H",
-          "prob": 0.47542247456664677,
-          "xg": [
-            1.4354705763124114,
-            0.9801326680749978
-          ],
-          "ml": "1-0"
         }
       ]
     },
     "10": {
-      "jointProb": 0.0021397138621900647,
+      "jointProb": 0.0022085596044111836,
       "games": [
         {
           "date": "2026-03-04",
@@ -907,6 +907,20 @@
           "ml": "1-0"
         },
         {
+          "date": "2026-03-05",
+          "round": "Matchday 29",
+          "home": "Tottenham Hotspur",
+          "away": "Crystal Palace",
+          "match": "Tottenham Hotspur vs Crystal Palace",
+          "pick": "A",
+          "prob": 0.4876690716123318,
+          "xg": [
+            0.9566752246469834,
+            1.4601749180071841
+          ],
+          "ml": "0-1"
+        },
+        {
           "date": "2026-03-04",
           "round": "Matchday 29",
           "home": "Brighton & Hove Albion",
@@ -961,20 +975,6 @@
             0.9801326680749978
           ],
           "ml": "1-0"
-        },
-        {
-          "date": "2026-02-28",
-          "round": "Matchday 28",
-          "home": "Leeds United",
-          "away": "Manchester City",
-          "match": "Leeds United vs Manchester City",
-          "pick": "A",
-          "prob": 0.47246733599859625,
-          "xg": [
-            1.3182893047767041,
-            1.7375079115874958
-          ],
-          "ml": "1-1"
         }
       ]
     }
