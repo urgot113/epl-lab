@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-03-01T06:04:53.425Z",
+  "updatedAt": "2026-03-02T06:08:00.908Z",
   "asOfDate": "2026-02-23",
-  "baseDate": "2026-03-01",
+  "baseDate": "2026-03-02",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,110 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-03-01",
-      "round": "Matchday 28",
-      "home": "Brighton & Hove Albion",
-      "away": "Nottingham Forest",
-      "elo": {
-        "pHome": 0.47352481795473655,
-        "pDraw": 0.2645682544122171,
-        "pAway": 0.26190692763304635,
-        "diff": 102.878303918553,
-        "Rh": 1491.3625659973584,
-        "Ra": 1448.4842620788054
-      },
-      "poisson": {
-        "lambdaHome": 1.4354705763124114,
-        "lambdaAway": 0.9801326680749978,
-        "pHome": 0.47542247456664677,
-        "pDraw": 0.26693674696700936,
-        "pAway": 0.25764077846634387,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 0,
-          "p": 0.12820682212747395
-        }
-      }
-    },
-    {
-      "date": "2026-03-01",
-      "round": "Matchday 28",
-      "home": "Fulham",
-      "away": "Tottenham Hotspur",
-      "elo": {
-        "pHome": 0.47901918440507507,
-        "pDraw": 0.2637937708678805,
-        "pAway": 0.25718704472704446,
-        "diff": 108.04152754746383,
-        "Rh": 1497.7970386102895,
-        "Ra": 1449.7555110628257
-      },
-      "poisson": {
-        "lambdaHome": 1.483075467873792,
-        "lambdaAway": 1.4969298930599964,
-        "pHome": 0.3747836665607778,
-        "pDraw": 0.24435753970776064,
-        "pAway": 0.38085879373146164,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11276253431342534
-        }
-      }
-    },
-    {
-      "date": "2026-03-01",
-      "round": "Matchday 28",
-      "home": "Manchester United",
-      "away": "Crystal Palace",
-      "elo": {
-        "pHome": 0.5173418101912911,
-        "pDraw": 0.25823715852408147,
-        "pAway": 0.2244210312846274,
-        "diff": 145.08560983945722,
-        "Rh": 1564.5636170769144,
-        "Ra": 1479.4780072374572
-      },
-      "poisson": {
-        "lambdaHome": 1.329275048983177,
-        "lambdaAway": 1.1783867759356221,
-        "pHome": 0.40137821035652244,
-        "pDraw": 0.2688095444444474,
-        "pAway": 0.32981224519903024,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.1275965758844616
-        }
-      }
-    },
-    {
-      "date": "2026-03-01",
-      "round": "Matchday 28",
-      "home": "Arsenal",
-      "away": "Chelsea",
-      "elo": {
-        "pHome": 0.4978434309321317,
-        "pDraw": 0.26110141810756515,
-        "pAway": 0.24105515096030317,
-        "diff": 125.99054594956601,
-        "Rh": 1603.7341201718602,
-        "Ra": 1537.7435742222942
-      },
-      "poisson": {
-        "lambdaHome": 1.642368758867644,
-        "lambdaAway": 1.1761592016899973,
-        "pHome": 0.4816959825802468,
-        "pDraw": 0.24463411772846003,
-        "pAway": 0.2736698996912932,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11530964778031437
-        }
-      }
-    },
     {
       "date": "2026-03-03",
       "round": "Matchday 29",
