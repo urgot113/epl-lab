@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-03-05T06:03:45.752Z",
+  "updatedAt": "2026-03-06T05:59:04.574Z",
   "asOfDate": "2026-03-01",
-  "baseDate": "2026-03-05",
+  "baseDate": "2026-03-06",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-03-05",
-      "round": "Matchday 29",
-      "home": "Tottenham Hotspur",
-      "away": "Crystal Palace",
-      "elo": {
-        "pHome": 0.3927167552710725,
-        "pDraw": 0.27559874476102003,
-        "pAway": 0.3316844999679075,
-        "diff": 29.341701593200014,
-        "Rh": 1442.7686903989954,
-        "Ra": 1473.4269888057954
-      },
-      "poisson": {
-        "lambdaHome": 0.9779582366589326,
-        "lambdaAway": 1.4369318181818183,
-        "pHome": 0.2568206939777895,
-        "pDraw": 0.26684218202889975,
-        "pAway": 0.47633712399331074,
-        "mostLikelyScore": {
-          "home": 0,
-          "away": 1,
-          "p": 0.1284288921617147
-        }
-      }
-    },
     {
       "date": "2026-03-14",
       "round": "Matchday 30",

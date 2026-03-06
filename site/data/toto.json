@@ -1,26 +1,11 @@
 {
   "meta": {
-    "baseDate": "2026-03-05",
+    "baseDate": "2026-03-06",
     "asOfDate": "2026-03-01",
     "windowDays": 7,
-    "generatedAt": "2026-03-05T06:03:45.785Z",
+    "generatedAt": "2026-03-06T05:59:04.607Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
-  "topPicks": [
-    {
-      "date": "2026-03-05",
-      "round": "Matchday 29",
-      "home": "Tottenham Hotspur",
-      "away": "Crystal Palace",
-      "match": "Tottenham Hotspur vs Crystal Palace",
-      "pick": "A",
-      "prob": 0.47633712399331074,
-      "xg": [
-        0.9779582366589326,
-        1.4369318181818183
-      ],
-      "ml": "0-1"
-    }
-  ],
+  "topPicks": [],
   "combos": {}
 }
