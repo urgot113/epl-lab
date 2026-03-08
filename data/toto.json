@@ -1,11 +1,299 @@
 {
   "meta": {
-    "baseDate": "2026-03-07",
+    "baseDate": "2026-03-08",
     "asOfDate": "2026-03-01",
     "windowDays": 7,
-    "generatedAt": "2026-03-07T04:41:06.339Z",
+    "generatedAt": "2026-03-08T04:53:52.868Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
-  "topPicks": [],
-  "combos": {}
+  "topPicks": [
+    {
+      "date": "2026-03-14",
+      "round": "Matchday 30",
+      "home": "West Ham United",
+      "away": "Manchester City",
+      "match": "West Ham United vs Manchester City",
+      "pick": "A",
+      "prob": 0.6422027510608428,
+      "xg": [
+        0.9779582366589326,
+        2.1653764204545456
+      ],
+      "ml": "0-2"
+    },
+    {
+      "date": "2026-03-14",
+      "round": "Matchday 30",
+      "home": "Arsenal",
+      "away": "Everton",
+      "match": "Arsenal vs Everton",
+      "pick": "H",
+      "prob": 0.5262230844245006,
+      "xg": [
+        1.470197215777262,
+        0.8142613636363637
+      ],
+      "ml": "1-0"
+    },
+    {
+      "date": "2026-03-14",
+      "round": "Matchday 30",
+      "home": "Burnley",
+      "away": "Bournemouth",
+      "match": "Burnley vs Bournemouth",
+      "pick": "A",
+      "prob": 0.4820945254681644,
+      "xg": [
+        1.462047563805104,
+        1.917904829545455
+      ],
+      "ml": "1-1"
+    },
+    {
+      "date": "2026-03-14",
+      "round": "Matchday 30",
+      "home": "Sunderland",
+      "away": "Brighton & Hove Albion",
+      "match": "Sunderland vs Brighton & Hove Albion",
+      "pick": "H",
+      "prob": 0.45144296529014627,
+      "xg": [
+        1.3691415313225057,
+        1.0058522727272727
+      ],
+      "ml": "1-1"
+    },
+    {
+      "date": "2026-03-14",
+      "round": "Matchday 30",
+      "home": "Chelsea",
+      "away": "Newcastle United",
+      "match": "Chelsea vs Newcastle United",
+      "pick": "H",
+      "prob": 0.43886332380020693,
+      "xg": [
+        1.3642517401392114,
+        1.05375
+      ],
+      "ml": "1-1"
+    }
+  ],
+  "combos": {
+    "2": {
+      "jointProb": 0.3379419124891364,
+      "games": [
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "West Ham United",
+          "away": "Manchester City",
+          "match": "West Ham United vs Manchester City",
+          "pick": "A",
+          "prob": 0.6422027510608428,
+          "xg": [
+            0.9779582366589326,
+            2.1653764204545456
+          ],
+          "ml": "0-2"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Arsenal",
+          "away": "Everton",
+          "match": "Arsenal vs Everton",
+          "pick": "H",
+          "prob": 0.5262230844245006,
+          "xg": [
+            1.470197215777262,
+            0.8142613636363637
+          ],
+          "ml": "1-0"
+        }
+      ]
+    },
+    "3": {
+      "jointProb": 0.16291994593725415,
+      "games": [
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "West Ham United",
+          "away": "Manchester City",
+          "match": "West Ham United vs Manchester City",
+          "pick": "A",
+          "prob": 0.6422027510608428,
+          "xg": [
+            0.9779582366589326,
+            2.1653764204545456
+          ],
+          "ml": "0-2"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Arsenal",
+          "away": "Everton",
+          "match": "Arsenal vs Everton",
+          "pick": "H",
+          "prob": 0.5262230844245006,
+          "xg": [
+            1.470197215777262,
+            0.8142613636363637
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Burnley",
+          "away": "Bournemouth",
+          "match": "Burnley vs Bournemouth",
+          "pick": "A",
+          "prob": 0.4820945254681644,
+          "xg": [
+            1.462047563805104,
+            1.917904829545455
+          ],
+          "ml": "1-1"
+        }
+      ]
+    },
+    "4": {
+      "jointProb": 0.07354906349882433,
+      "games": [
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "West Ham United",
+          "away": "Manchester City",
+          "match": "West Ham United vs Manchester City",
+          "pick": "A",
+          "prob": 0.6422027510608428,
+          "xg": [
+            0.9779582366589326,
+            2.1653764204545456
+          ],
+          "ml": "0-2"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Arsenal",
+          "away": "Everton",
+          "match": "Arsenal vs Everton",
+          "pick": "H",
+          "prob": 0.5262230844245006,
+          "xg": [
+            1.470197215777262,
+            0.8142613636363637
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Burnley",
+          "away": "Bournemouth",
+          "match": "Burnley vs Bournemouth",
+          "pick": "A",
+          "prob": 0.4820945254681644,
+          "xg": [
+            1.462047563805104,
+            1.917904829545455
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Sunderland",
+          "away": "Brighton & Hove Albion",
+          "match": "Sunderland vs Brighton & Hove Albion",
+          "pick": "H",
+          "prob": 0.45144296529014627,
+          "xg": [
+            1.3691415313225057,
+            1.0058522727272727
+          ],
+          "ml": "1-1"
+        }
+      ]
+    },
+    "5": {
+      "jointProb": 0.03227798646948652,
+      "games": [
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "West Ham United",
+          "away": "Manchester City",
+          "match": "West Ham United vs Manchester City",
+          "pick": "A",
+          "prob": 0.6422027510608428,
+          "xg": [
+            0.9779582366589326,
+            2.1653764204545456
+          ],
+          "ml": "0-2"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Arsenal",
+          "away": "Everton",
+          "match": "Arsenal vs Everton",
+          "pick": "H",
+          "prob": 0.5262230844245006,
+          "xg": [
+            1.470197215777262,
+            0.8142613636363637
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Burnley",
+          "away": "Bournemouth",
+          "match": "Burnley vs Bournemouth",
+          "pick": "A",
+          "prob": 0.4820945254681644,
+          "xg": [
+            1.462047563805104,
+            1.917904829545455
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Sunderland",
+          "away": "Brighton & Hove Albion",
+          "match": "Sunderland vs Brighton & Hove Albion",
+          "pick": "H",
+          "prob": 0.45144296529014627,
+          "xg": [
+            1.3691415313225057,
+            1.0058522727272727
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-03-14",
+          "round": "Matchday 30",
+          "home": "Chelsea",
+          "away": "Newcastle United",
+          "match": "Chelsea vs Newcastle United",
+          "pick": "H",
+          "prob": 0.43886332380020693,
+          "xg": [
+            1.3642517401392114,
+            1.05375
+          ],
+          "ml": "1-1"
+        }
+      ]
+    }
+  }
 }
