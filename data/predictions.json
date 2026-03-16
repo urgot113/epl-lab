@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-03-15T05:14:38.496Z",
+  "updatedAt": "2026-03-16T05:24:51.473Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-03-15",
+  "baseDate": "2026-03-16",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,110 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-03-15",
-      "round": "Matchday 30",
-      "home": "Crystal Palace",
-      "away": "Leeds United",
-      "elo": {
-        "pHome": 0.4411843039757939,
-        "pDraw": 0.2690459768092314,
-        "pAway": 0.28976971921497463,
-        "diff": 73.0268212717906,
-        "Rh": 1484.2695088161042,
-        "Ra": 1471.2426875443136
-      },
-      "poisson": {
-        "lambdaHome": 1.306530612244898,
-        "lambdaAway": 1.1886475409836066,
-        "pHome": 0.3930519506037047,
-        "pDraw": 0.2699539964245096,
-        "pAway": 0.33699405297178564,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12809452946473868
-        }
-      }
-    },
-    {
-      "date": "2026-03-15",
-      "round": "Matchday 30",
-      "home": "Manchester United",
-      "away": "Aston Villa",
-      "elo": {
-        "pHome": 0.4490426022568179,
-        "pDraw": 0.2679688764312948,
-        "pAway": 0.28298852131188723,
-        "diff": 80.20749045803473,
-        "Rh": 1559.7028867496454,
-        "Ra": 1539.4953962916106
-      },
-      "poisson": {
-        "lambdaHome": 1.5589285714285719,
-        "lambdaAway": 1.240327868852459,
-        "pHome": 0.4468479156930609,
-        "pDraw": 0.24958615135503573,
-        "pAway": 0.3035659329519034,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11766873733321871
-        }
-      }
-    },
-    {
-      "date": "2026-03-15",
-      "round": "Matchday 30",
-      "home": "Nottingham Forest",
-      "away": "Fulham",
-      "elo": {
-        "pHome": 0.37719054174225375,
-        "pDraw": 0.27768490389068096,
-        "pAway": 0.34512455436706524,
-        "diff": 15.433974062127163,
-        "Rh": 1446.858190398006,
-        "Ra": 1491.4242163358788
-      },
-      "poisson": {
-        "lambdaHome": 1.1432142857142857,
-        "lambdaAway": 1.2880327868852461,
-        "pHome": 0.32829015774764103,
-        "pDraw": 0.27377722978183855,
-        "pAway": 0.39793261247052025,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.1294724520727742
-        }
-      }
-    },
-    {
-      "date": "2026-03-15",
-      "round": "Matchday 30",
-      "home": "Liverpool",
-      "away": "Tottenham Hotspur",
-      "elo": {
-        "pHome": 0.5292750976601488,
-        "pDraw": 0.2564387578042475,
-        "pAway": 0.21428614453560374,
-        "diff": 157.0749479716833,
-        "Rh": 1529.00111836037,
-        "Ra": 1431.9261703886866
-      },
-      "poisson": {
-        "lambdaHome": 1.6265646258503401,
-        "lambdaAway": 1.3834426229508199,
-        "pHome": 0.43237611132008047,
-        "pDraw": 0.2411068889921509,
-        "pAway": 0.3265169996877686,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11091823146671542
-        }
-      }
-    },
     {
       "date": "2026-03-16",
       "round": "Matchday 30",
