@@ -1,26 +1,12 @@
 {
   "meta": {
-    "baseDate": "2026-03-16",
+    "baseDate": "2026-03-17",
     "asOfDate": "2026-03-05",
     "windowDays": 7,
-    "generatedAt": "2026-03-16T05:24:51.506Z",
+    "generatedAt": "2026-03-17T05:03:08.495Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
-    {
-      "date": "2026-03-16",
-      "round": "Matchday 30",
-      "home": "Brentford",
-      "away": "Wolverhampton Wanderers",
-      "match": "Brentford vs Wolverhampton Wanderers",
-      "pick": "H",
-      "prob": 0.6013293261916459,
-      "xg": [
-        1.5308843537414967,
-        0.5943237704918033
-      ],
-      "ml": "1-0"
-    },
     {
       "date": "2026-03-21",
       "round": "Matchday 31",
@@ -150,55 +136,8 @@
   ],
   "combos": {
     "2": {
-      "jointProb": 0.3463296913642701,
+      "jointProb": 0.32761693743683856,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
-          "pick": "H",
-          "prob": 0.5759401317704793,
-          "xg": [
-            2.0588952134141634,
-            1.1718895208356568
-          ],
-          "ml": "2-1"
-        }
-      ]
-    },
-    "3": {
-      "jointProb": 0.19700567223786478,
-      "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
@@ -229,23 +168,9 @@
         }
       ]
     },
-    "4": {
-      "jointProb": 0.10689911233283406,
+    "3": {
+      "jointProb": 0.1777713270860249,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
@@ -290,23 +215,9 @@
         }
       ]
     },
-    "5": {
-      "jointProb": 0.05583217782866319,
+    "4": {
+      "jointProb": 0.09284792109219243,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
@@ -365,23 +276,9 @@
         }
       ]
     },
-    "6": {
-      "jointProb": 0.026448112155117286,
+    "5": {
+      "jointProb": 0.043982741242006504,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
@@ -454,23 +351,9 @@
         }
       ]
     },
-    "7": {
-      "jointProb": 0.010509920376529822,
+    "6": {
+      "jointProb": 0.01747781110742015,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
@@ -557,23 +440,9 @@
         }
       ]
     },
-    "8": {
-      "jointProb": 0.004121389795471637,
+    "7": {
+      "jointProb": 0.006853798103567187,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
@@ -674,23 +543,9 @@
         }
       ]
     },
-    "9": {
-      "jointProb": 0.0016113144356806595,
+    "8": {
+      "jointProb": 0.0026795873167960674,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
@@ -805,23 +660,9 @@
         }
       ]
     },
-    "10": {
-      "jointProb": 0.0006209691917086194,
+    "9": {
+      "jointProb": 0.0010326607478822916,
       "games": [
-        {
-          "date": "2026-03-16",
-          "round": "Matchday 30",
-          "home": "Brentford",
-          "away": "Wolverhampton Wanderers",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.6013293261916459,
-          "xg": [
-            1.5308843537414967,
-            0.5943237704918033
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-21",
           "round": "Matchday 31",
