@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-03-20T04:58:07.871Z",
+  "updatedAt": "2026-03-21T04:48:07.515Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-03-20",
+  "baseDate": "2026-03-21",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-03-20",
-      "round": "Matchday 31",
-      "home": "Bournemouth",
-      "away": "Manchester United",
-      "elo": {
-        "pHome": 0.37660070644444094,
-        "pDraw": 0.27776420192409346,
-        "pAway": 0.3456350916314656,
-        "diff": 14.905320506043836,
-        "Rh": 1514.6082072556892,
-        "Ra": 1559.7028867496454
-      },
-      "poisson": {
-        "lambdaHome": 1.3885572369537382,
-        "lambdaAway": 1.3269395189769897,
-        "pHome": 0.3853805178914732,
-        "pDraw": 0.2574528722548395,
-        "pAway": 0.3571666098536872,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12192412794326775
-        }
-      }
-    },
     {
       "date": "2026-03-21",
       "round": "Matchday 31",
