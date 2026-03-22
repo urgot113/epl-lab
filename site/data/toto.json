@@ -1,54 +1,12 @@
 {
   "meta": {
-    "baseDate": "2026-03-21",
+    "baseDate": "2026-03-22",
     "asOfDate": "2026-03-05",
     "windowDays": 7,
-    "generatedAt": "2026-03-21T04:48:07.545Z",
+    "generatedAt": "2026-03-22T05:01:38.909Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Fulham",
-      "away": "Burnley",
-      "match": "Fulham vs Burnley",
-      "pick": "H",
-      "prob": 0.5759401317704793,
-      "xg": [
-        2.0588952134141634,
-        1.1718895208356568
-      ],
-      "ml": "2-1"
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Everton",
-      "away": "Chelsea",
-      "match": "Everton vs Chelsea",
-      "pick": "A",
-      "prob": 0.5688385291535801,
-      "xg": [
-        1.0114921251947493,
-        1.849782535965206
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Manchester City",
-      "away": "Crystal Palace",
-      "match": "Manchester City vs Crystal Palace",
-      "pick": "H",
-      "prob": 0.5426194642952412,
-      "xg": [
-        1.645919138630509,
-        0.924891267982603
-      ],
-      "ml": "1-0"
-    },
     {
       "date": "2026-03-22",
       "round": "Matchday 31",
@@ -90,298 +48,45 @@
         1.3684063789450207
       ],
       "ml": "1-1"
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Brighton & Hove Albion",
-      "away": "Liverpool",
-      "match": "Brighton & Hove Albion vs Liverpool",
-      "pick": "H",
-      "prob": 0.39214281819634894,
-      "xg": [
-        1.391549817205794,
-        1.2980930076948816
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Leeds United",
-      "away": "Brentford",
-      "match": "Leeds United vs Brentford",
-      "pick": "H",
-      "prob": 0.3909638533707939,
-      "xg": [
-        1.4813272247674578,
-        1.4134790528233154
-      ],
-      "ml": "1-1"
     }
   ],
   "combos": {
     "2": {
-      "jointProb": 0.32761693743683856,
+      "jointProb": 0.2474118968618765,
       "games": [
         {
-          "date": "2026-03-21",
+          "date": "2026-03-22",
           "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
+          "home": "Newcastle United",
+          "away": "Sunderland",
+          "match": "Newcastle United vs Sunderland",
           "pick": "H",
-          "prob": 0.5759401317704793,
+          "prob": 0.5222885074557756,
           "xg": [
-            2.0588952134141634,
-            1.1718895208356568
+            1.5621268915729556,
+            0.923088361027471
           ],
-          "ml": "2-1"
+          "ml": "1-0"
         },
         {
-          "date": "2026-03-21",
+          "date": "2026-03-22",
           "round": "Matchday 31",
-          "home": "Everton",
-          "away": "Chelsea",
-          "match": "Everton vs Chelsea",
-          "pick": "A",
-          "prob": 0.5688385291535801,
+          "home": "Aston Villa",
+          "away": "West Ham United",
+          "match": "Aston Villa vs West Ham United",
+          "pick": "H",
+          "prob": 0.47370733479680466,
           "xg": [
-            1.0114921251947493,
-            1.849782535965206
+            1.5187344779181515,
+            1.0781383591688043
           ],
           "ml": "1-1"
         }
       ]
     },
     "3": {
-      "jointProb": 0.1777713270860249,
+      "jointProb": 0.09831625489842072,
       "games": [
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
-          "pick": "H",
-          "prob": 0.5759401317704793,
-          "xg": [
-            2.0588952134141634,
-            1.1718895208356568
-          ],
-          "ml": "2-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Everton",
-          "away": "Chelsea",
-          "match": "Everton vs Chelsea",
-          "pick": "A",
-          "prob": 0.5688385291535801,
-          "xg": [
-            1.0114921251947493,
-            1.849782535965206
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Manchester City",
-          "away": "Crystal Palace",
-          "match": "Manchester City vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.5426194642952412,
-          "xg": [
-            1.645919138630509,
-            0.924891267982603
-          ],
-          "ml": "1-0"
-        }
-      ]
-    },
-    "4": {
-      "jointProb": 0.09284792109219243,
-      "games": [
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
-          "pick": "H",
-          "prob": 0.5759401317704793,
-          "xg": [
-            2.0588952134141634,
-            1.1718895208356568
-          ],
-          "ml": "2-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Everton",
-          "away": "Chelsea",
-          "match": "Everton vs Chelsea",
-          "pick": "A",
-          "prob": 0.5688385291535801,
-          "xg": [
-            1.0114921251947493,
-            1.849782535965206
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Manchester City",
-          "away": "Crystal Palace",
-          "match": "Manchester City vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.5426194642952412,
-          "xg": [
-            1.645919138630509,
-            0.924891267982603
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Newcastle United",
-          "away": "Sunderland",
-          "match": "Newcastle United vs Sunderland",
-          "pick": "H",
-          "prob": 0.5222885074557756,
-          "xg": [
-            1.5621268915729556,
-            0.923088361027471
-          ],
-          "ml": "1-0"
-        }
-      ]
-    },
-    "5": {
-      "jointProb": 0.043982741242006504,
-      "games": [
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
-          "pick": "H",
-          "prob": 0.5759401317704793,
-          "xg": [
-            2.0588952134141634,
-            1.1718895208356568
-          ],
-          "ml": "2-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Everton",
-          "away": "Chelsea",
-          "match": "Everton vs Chelsea",
-          "pick": "A",
-          "prob": 0.5688385291535801,
-          "xg": [
-            1.0114921251947493,
-            1.849782535965206
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Manchester City",
-          "away": "Crystal Palace",
-          "match": "Manchester City vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.5426194642952412,
-          "xg": [
-            1.645919138630509,
-            0.924891267982603
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Newcastle United",
-          "away": "Sunderland",
-          "match": "Newcastle United vs Sunderland",
-          "pick": "H",
-          "prob": 0.5222885074557756,
-          "xg": [
-            1.5621268915729556,
-            0.923088361027471
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Aston Villa",
-          "away": "West Ham United",
-          "match": "Aston Villa vs West Ham United",
-          "pick": "H",
-          "prob": 0.47370733479680466,
-          "xg": [
-            1.5187344779181515,
-            1.0781383591688043
-          ],
-          "ml": "1-1"
-        }
-      ]
-    },
-    "6": {
-      "jointProb": 0.01747781110742015,
-      "games": [
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
-          "pick": "H",
-          "prob": 0.5759401317704793,
-          "xg": [
-            2.0588952134141634,
-            1.1718895208356568
-          ],
-          "ml": "2-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Everton",
-          "away": "Chelsea",
-          "match": "Everton vs Chelsea",
-          "pick": "A",
-          "prob": 0.5688385291535801,
-          "xg": [
-            1.0114921251947493,
-            1.849782535965206
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Manchester City",
-          "away": "Crystal Palace",
-          "match": "Manchester City vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.5426194642952412,
-          "xg": [
-            1.645919138630509,
-            0.924891267982603
-          ],
-          "ml": "1-0"
-        },
         {
           "date": "2026-03-22",
           "round": "Matchday 31",
@@ -421,226 +126,6 @@
           "xg": [
             1.2449133848550757,
             1.3684063789450207
-          ],
-          "ml": "1-1"
-        }
-      ]
-    },
-    "7": {
-      "jointProb": 0.006853798103567187,
-      "games": [
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
-          "pick": "H",
-          "prob": 0.5759401317704793,
-          "xg": [
-            2.0588952134141634,
-            1.1718895208356568
-          ],
-          "ml": "2-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Everton",
-          "away": "Chelsea",
-          "match": "Everton vs Chelsea",
-          "pick": "A",
-          "prob": 0.5688385291535801,
-          "xg": [
-            1.0114921251947493,
-            1.849782535965206
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Manchester City",
-          "away": "Crystal Palace",
-          "match": "Manchester City vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.5426194642952412,
-          "xg": [
-            1.645919138630509,
-            0.924891267982603
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Newcastle United",
-          "away": "Sunderland",
-          "match": "Newcastle United vs Sunderland",
-          "pick": "H",
-          "prob": 0.5222885074557756,
-          "xg": [
-            1.5621268915729556,
-            0.923088361027471
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Aston Villa",
-          "away": "West Ham United",
-          "match": "Aston Villa vs West Ham United",
-          "pick": "H",
-          "prob": 0.47370733479680466,
-          "xg": [
-            1.5187344779181515,
-            1.0781383591688043
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Tottenham Hotspur",
-          "away": "Nottingham Forest",
-          "match": "Tottenham Hotspur vs Nottingham Forest",
-          "pick": "A",
-          "prob": 0.397378849382122,
-          "xg": [
-            1.2449133848550757,
-            1.3684063789450207
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Brighton & Hove Albion",
-          "away": "Liverpool",
-          "match": "Brighton & Hove Albion vs Liverpool",
-          "pick": "H",
-          "prob": 0.39214281819634894,
-          "xg": [
-            1.391549817205794,
-            1.2980930076948816
-          ],
-          "ml": "1-1"
-        }
-      ]
-    },
-    "8": {
-      "jointProb": 0.0026795873167960674,
-      "games": [
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Fulham",
-          "away": "Burnley",
-          "match": "Fulham vs Burnley",
-          "pick": "H",
-          "prob": 0.5759401317704793,
-          "xg": [
-            2.0588952134141634,
-            1.1718895208356568
-          ],
-          "ml": "2-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Everton",
-          "away": "Chelsea",
-          "match": "Everton vs Chelsea",
-          "pick": "A",
-          "prob": 0.5688385291535801,
-          "xg": [
-            1.0114921251947493,
-            1.849782535965206
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Manchester City",
-          "away": "Crystal Palace",
-          "match": "Manchester City vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.5426194642952412,
-          "xg": [
-            1.645919138630509,
-            0.924891267982603
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Newcastle United",
-          "away": "Sunderland",
-          "match": "Newcastle United vs Sunderland",
-          "pick": "H",
-          "prob": 0.5222885074557756,
-          "xg": [
-            1.5621268915729556,
-            0.923088361027471
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Aston Villa",
-          "away": "West Ham United",
-          "match": "Aston Villa vs West Ham United",
-          "pick": "H",
-          "prob": 0.47370733479680466,
-          "xg": [
-            1.5187344779181515,
-            1.0781383591688043
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-22",
-          "round": "Matchday 31",
-          "home": "Tottenham Hotspur",
-          "away": "Nottingham Forest",
-          "match": "Tottenham Hotspur vs Nottingham Forest",
-          "pick": "A",
-          "prob": 0.397378849382122,
-          "xg": [
-            1.2449133848550757,
-            1.3684063789450207
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Brighton & Hove Albion",
-          "away": "Liverpool",
-          "match": "Brighton & Hove Albion vs Liverpool",
-          "pick": "H",
-          "prob": 0.39214281819634894,
-          "xg": [
-            1.391549817205794,
-            1.2980930076948816
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-03-21",
-          "round": "Matchday 31",
-          "home": "Leeds United",
-          "away": "Brentford",
-          "match": "Leeds United vs Brentford",
-          "pick": "H",
-          "prob": 0.3909638533707939,
-          "xg": [
-            1.4813272247674578,
-            1.4134790528233154
           ],
           "ml": "1-1"
         }

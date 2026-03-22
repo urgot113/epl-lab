@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-03-21T04:48:07.515Z",
+  "updatedAt": "2026-03-22T05:01:38.876Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-03-21",
+  "baseDate": "2026-03-22",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,136 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Manchester City",
-      "away": "Crystal Palace",
-      "elo": {
-        "pHome": 0.538251355757607,
-        "pDraw": 0.25505990147036783,
-        "pAway": 0.20668874277202517,
-        "diff": 166.2673235308814,
-        "Rh": 1590.5368323469856,
-        "Ra": 1484.2695088161042
-      },
-      "poisson": {
-        "lambdaHome": 1.645919138630509,
-        "lambdaAway": 0.924891267982603,
-        "pHome": 0.5426194642952412,
-        "pDraw": 0.24584329996688822,
-        "pAway": 0.21153723573787042,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 0,
-          "p": 0.12586927236398043
-        }
-      }
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Brighton & Hove Albion",
-      "away": "Liverpool",
-      "elo": {
-        "pHome": 0.3833619864271593,
-        "pDraw": 0.276855517351608,
-        "pAway": 0.33978249622123263,
-        "diff": 20.963217655946664,
-        "Rh": 1489.9643360163166,
-        "Ra": 1529.00111836037
-      },
-      "poisson": {
-        "lambdaHome": 1.391549817205794,
-        "lambdaAway": 1.2980930076948816,
-        "pHome": 0.39214281819634894,
-        "pDraw": 0.258686071073017,
-        "pAway": 0.34917111073063395,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12266129120471694
-        }
-      }
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Fulham",
-      "away": "Burnley",
-      "elo": {
-        "pHome": 0.5204421504567968,
-        "pDraw": 0.25777350539045424,
-        "pAway": 0.22178434415274909,
-        "diff": 148.1766307303053,
-        "Rh": 1491.4242163358788,
-        "Ra": 1403.2475856055735
-      },
-      "poisson": {
-        "lambdaHome": 2.0588952134141634,
-        "lambdaAway": 1.1718895208356568,
-        "pHome": 0.5759401317704793,
-        "pDraw": 0.2115740820568901,
-        "pAway": 0.21248578617263048,
-        "mostLikelyScore": {
-          "home": 2,
-          "away": 1,
-          "p": 0.09817777392113586
-        }
-      }
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Everton",
-      "away": "Chelsea",
-      "elo": {
-        "pHome": 0.39365286008585215,
-        "pDraw": 0.2754729674198234,
-        "pAway": 0.33087417249432444,
-        "diff": 30.180217201177356,
-        "Rh": 1513.6769470243576,
-        "Ra": 1543.4967298231802
-      },
-      "poisson": {
-        "lambdaHome": 1.0114921251947493,
-        "lambdaAway": 1.849782535965206,
-        "pHome": 0.20447689967022356,
-        "pDraw": 0.22668457117619625,
-        "pAway": 0.5688385291535801,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.10701567233930413
-        }
-      }
-    },
-    {
-      "date": "2026-03-21",
-      "round": "Matchday 31",
-      "home": "Leeds United",
-      "away": "Brentford",
-      "elo": {
-        "pHome": 0.37129625633887403,
-        "pDraw": 0.27847767399932716,
-        "pAway": 0.35022606966179887,
-        "diff": 10.148840004485692,
-        "Rh": 1471.2426875443136,
-        "Ra": 1521.093847539828
-      },
-      "poisson": {
-        "lambdaHome": 1.4813272247674578,
-        "lambdaAway": 1.4134790528233154,
-        "pHome": 0.3909638533707939,
-        "pDraw": 0.24822912175690298,
-        "pAway": 0.36080702487230304,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11580891397078336
-        }
-      }
-    },
     {
       "date": "2026-03-22",
       "round": "Matchday 31",
