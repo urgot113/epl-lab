@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-03-22T05:01:38.876Z",
+  "updatedAt": "2026-03-23T05:14:55.965Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-03-22",
+  "baseDate": "2026-03-23",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,84 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-03-22",
-      "round": "Matchday 31",
-      "home": "Newcastle United",
-      "away": "Sunderland",
-      "elo": {
-        "pHome": 0.4137919799591168,
-        "pDraw": 0.2727627768644224,
-        "pAway": 0.3134452431764608,
-        "diff": 48.24815423718428,
-        "Rh": 1489.7607708897249,
-        "Ra": 1501.5126166525406
-      },
-      "poisson": {
-        "lambdaHome": 1.5621268915729556,
-        "lambdaAway": 0.923088361027471,
-        "pHome": 0.5222885074557756,
-        "pDraw": 0.2546524894191482,
-        "pAway": 0.2230590031250762,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 0,
-          "p": 0.13013707409985992
-        }
-      }
-    },
-    {
-      "date": "2026-03-22",
-      "round": "Matchday 31",
-      "home": "Aston Villa",
-      "away": "West Ham United",
-      "elo": {
-        "pHome": 0.5150321461856814,
-        "pDraw": 0.25858101078989604,
-        "pAway": 0.2263868430244226,
-        "diff": 142.79326140069315,
-        "Rh": 1539.4953962916106,
-        "Ra": 1456.7021348909175
-      },
-      "poisson": {
-        "lambdaHome": 1.5187344779181515,
-        "lambdaAway": 1.0781383591688043,
-        "pHome": 0.47370733479680466,
-        "pDraw": 0.25681099686928377,
-        "pAway": 0.2694816683339116,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12199690333642325
-        }
-      }
-    },
-    {
-      "date": "2026-03-22",
-      "round": "Matchday 31",
-      "home": "Tottenham Hotspur",
-      "away": "Nottingham Forest",
-      "elo": {
-        "pHome": 0.41025372991589665,
-        "pDraw": 0.27323980300139794,
-        "pAway": 0.3165064670827054,
-        "diff": 45.06797999068067,
-        "Rh": 1431.9261703886866,
-        "Ra": 1446.858190398006
-      },
-      "poisson": {
-        "lambdaHome": 1.2449133848550757,
-        "lambdaAway": 1.3684063789450207,
-        "pHome": 0.3398637925856726,
-        "pDraw": 0.2627573580322054,
-        "pAway": 0.397378849382122,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12485440619333071
-        }
-      }
-    },
     {
       "date": "2026-04-10",
       "round": "Matchday 32",
