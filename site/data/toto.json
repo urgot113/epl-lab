@@ -1,11 +1,26 @@
 {
   "meta": {
-    "baseDate": "2026-04-03",
+    "baseDate": "2026-04-04",
     "asOfDate": "2026-03-05",
     "windowDays": 7,
-    "generatedAt": "2026-04-03T05:16:10.522Z",
+    "generatedAt": "2026-04-04T05:02:39.631Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
-  "topPicks": [],
+  "topPicks": [
+    {
+      "date": "2026-04-10",
+      "round": "Matchday 32",
+      "home": "West Ham United",
+      "away": "Wolverhampton Wanderers",
+      "match": "West Ham United vs Wolverhampton Wanderers",
+      "pick": "H",
+      "prob": 0.4267974675249088,
+      "xg": [
+        1.196003401360544,
+        0.9044057377049181
+      ],
+      "ml": "1-0"
+    }
+  ],
   "combos": {}
 }
