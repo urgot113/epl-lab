@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-10T05:34:14.669Z",
+  "updatedAt": "2026-04-11T05:05:15.420Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-04-10",
+  "baseDate": "2026-04-11",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-04-10",
-      "round": "Matchday 32",
-      "home": "West Ham United",
-      "away": "Wolverhampton Wanderers",
-      "elo": {
-        "pHome": 0.48531936389767194,
-        "pDraw": 0.26289971218946917,
-        "pAway": 0.2517809239128589,
-        "diff": 114.00191873687231,
-        "Rh": 1456.7021348909175,
-        "Ra": 1402.7002161540452
-      },
-      "poisson": {
-        "lambdaHome": 1.196003401360544,
-        "lambdaAway": 0.9044057377049181,
-        "pHome": 0.4267974675249088,
-        "pDraw": 0.29530715040911953,
-        "pAway": 0.2778953820659715,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 0,
-          "p": 0.14639839515161784
-        }
-      }
-    },
     {
       "date": "2026-04-11",
       "round": "Matchday 32",
