@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-12T05:31:54.761Z",
+  "updatedAt": "2026-04-13T05:57:39.292Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-04-12",
+  "baseDate": "2026-04-13",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,58 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-04-12",
-      "round": "Matchday 32",
-      "home": "Sunderland",
-      "away": "Tottenham Hotspur",
-      "elo": {
-        "pHome": 0.5015590488997885,
-        "pDraw": 0.2605620330604219,
-        "pAway": 0.23787891803978958,
-        "diff": 129.586446263854,
-        "Rh": 1501.5126166525406,
-        "Ra": 1431.9261703886866
-      },
-      "poisson": {
-        "lambdaHome": 1.435204081632653,
-        "lambdaAway": 1.2105122950819673,
-        "pHome": 0.42217400066680655,
-        "pDraw": 0.25956143401562143,
-        "pAway": 0.31826456531757197,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12327154598085163
-        }
-      }
-    },
-    {
-      "date": "2026-04-12",
-      "round": "Matchday 32",
-      "home": "Chelsea",
-      "away": "Manchester City",
-      "elo": {
-        "pHome": 0.37443057764452886,
-        "pDraw": 0.27805601537857083,
-        "pAway": 0.3475134069769003,
-        "diff": 12.959897476194556,
-        "Rh": 1543.4967298231802,
-        "Ra": 1590.5368323469856
-      },
-      "poisson": {
-        "lambdaHome": 1.2273469387755103,
-        "lambdaAway": 1.4788524590163936,
-        "pHome": 0.3145870614280185,
-        "pDraw": 0.2557682580121003,
-        "pAway": 0.4296446805598812,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12122849850018996
-        }
-      }
-    },
     {
       "date": "2026-04-13",
       "round": "Matchday 32",

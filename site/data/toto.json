@@ -1,9 +1,9 @@
 {
   "meta": {
-    "baseDate": "2026-04-12",
+    "baseDate": "2026-04-13",
     "asOfDate": "2026-03-05",
     "windowDays": 7,
-    "generatedAt": "2026-04-12T05:31:54.795Z",
+    "generatedAt": "2026-04-13T05:57:39.330Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
@@ -92,30 +92,30 @@
       "ml": "1-1"
     },
     {
-      "date": "2026-04-12",
-      "round": "Matchday 32",
-      "home": "Chelsea",
-      "away": "Manchester City",
-      "match": "Chelsea vs Manchester City",
+      "date": "2026-04-19",
+      "round": "Matchday 33",
+      "home": "Everton",
+      "away": "Liverpool",
+      "match": "Everton vs Liverpool",
       "pick": "A",
-      "prob": 0.4296446805598812,
+      "prob": 0.42962958906327775,
       "xg": [
-        1.2273469387755103,
-        1.4788524590163936
+        1.206009841578355,
+        1.460354633656742
       ],
       "ml": "1-1"
     },
     {
-      "date": "2026-04-12",
-      "round": "Matchday 32",
-      "home": "Sunderland",
-      "away": "Tottenham Hotspur",
-      "match": "Sunderland vs Tottenham Hotspur",
+      "date": "2026-04-19",
+      "round": "Matchday 33",
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "match": "Manchester City vs Arsenal",
       "pick": "H",
-      "prob": 0.42217400066680655,
+      "prob": 0.41354890249977744,
       "xg": [
-        1.435204081632653,
-        1.2105122950819673
+        1.3197278911564627,
+        1.1117379887871692
       ],
       "ml": "1-1"
     },
@@ -455,7 +455,7 @@
       ]
     },
     "7": {
-      "jointProb": 0.007533811806541655,
+      "jointProb": 0.007533547177418024,
       "games": [
         {
           "date": "2026-04-13",
@@ -542,23 +542,23 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-04-12",
-          "round": "Matchday 32",
-          "home": "Chelsea",
-          "away": "Manchester City",
-          "match": "Chelsea vs Manchester City",
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Everton",
+          "away": "Liverpool",
+          "match": "Everton vs Liverpool",
           "pick": "A",
-          "prob": 0.4296446805598812,
+          "prob": 0.42962958906327775,
           "xg": [
-            1.2273469387755103,
-            1.4788524590163936
+            1.206009841578355,
+            1.460354633656742
           ],
           "ml": "1-1"
         }
       ]
     },
     "8": {
-      "jointProb": 0.003180579470638512,
+      "jointProb": 0.00311549016715152,
       "games": [
         {
           "date": "2026-04-13",
@@ -645,37 +645,37 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-04-12",
-          "round": "Matchday 32",
-          "home": "Chelsea",
-          "away": "Manchester City",
-          "match": "Chelsea vs Manchester City",
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Everton",
+          "away": "Liverpool",
+          "match": "Everton vs Liverpool",
           "pick": "A",
-          "prob": 0.4296446805598812,
+          "prob": 0.42962958906327775,
           "xg": [
-            1.2273469387755103,
-            1.4788524590163936
+            1.206009841578355,
+            1.460354633656742
           ],
           "ml": "1-1"
         },
         {
-          "date": "2026-04-12",
-          "round": "Matchday 32",
-          "home": "Sunderland",
-          "away": "Tottenham Hotspur",
-          "match": "Sunderland vs Tottenham Hotspur",
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Manchester City",
+          "away": "Arsenal",
+          "match": "Manchester City vs Arsenal",
           "pick": "H",
-          "prob": 0.42217400066680655,
+          "prob": 0.41354890249977744,
           "xg": [
-            1.435204081632653,
-            1.2105122950819673
+            1.3197278911564627,
+            1.1117379887871692
           ],
           "ml": "1-1"
         }
       ]
     },
     "9": {
-      "jointProb": 0.0012830208784795278,
+      "jointProb": 0.001256764362611765,
       "games": [
         {
           "date": "2026-04-13",
@@ -762,30 +762,30 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-04-12",
-          "round": "Matchday 32",
-          "home": "Chelsea",
-          "away": "Manchester City",
-          "match": "Chelsea vs Manchester City",
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Everton",
+          "away": "Liverpool",
+          "match": "Everton vs Liverpool",
           "pick": "A",
-          "prob": 0.4296446805598812,
+          "prob": 0.42962958906327775,
           "xg": [
-            1.2273469387755103,
-            1.4788524590163936
+            1.206009841578355,
+            1.460354633656742
           ],
           "ml": "1-1"
         },
         {
-          "date": "2026-04-12",
-          "round": "Matchday 32",
-          "home": "Sunderland",
-          "away": "Tottenham Hotspur",
-          "match": "Sunderland vs Tottenham Hotspur",
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Manchester City",
+          "away": "Arsenal",
+          "match": "Manchester City vs Arsenal",
           "pick": "H",
-          "prob": 0.42217400066680655,
+          "prob": 0.41354890249977744,
           "xg": [
-            1.435204081632653,
-            1.2105122950819673
+            1.3197278911564627,
+            1.1117379887871692
           ],
           "ml": "1-1"
         },
@@ -806,7 +806,7 @@
       ]
     },
     "10": {
-      "jointProb": 0.0005151999449434694,
+      "jointProb": 0.0005046565814204147,
       "games": [
         {
           "date": "2026-04-13",
@@ -893,30 +893,30 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-04-12",
-          "round": "Matchday 32",
-          "home": "Chelsea",
-          "away": "Manchester City",
-          "match": "Chelsea vs Manchester City",
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Everton",
+          "away": "Liverpool",
+          "match": "Everton vs Liverpool",
           "pick": "A",
-          "prob": 0.4296446805598812,
+          "prob": 0.42962958906327775,
           "xg": [
-            1.2273469387755103,
-            1.4788524590163936
+            1.206009841578355,
+            1.460354633656742
           ],
           "ml": "1-1"
         },
         {
-          "date": "2026-04-12",
-          "round": "Matchday 32",
-          "home": "Sunderland",
-          "away": "Tottenham Hotspur",
-          "match": "Sunderland vs Tottenham Hotspur",
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Manchester City",
+          "away": "Arsenal",
+          "match": "Manchester City vs Arsenal",
           "pick": "H",
-          "prob": 0.42217400066680655,
+          "prob": 0.41354890249977744,
           "xg": [
-            1.435204081632653,
-            1.2105122950819673
+            1.3197278911564627,
+            1.1117379887871692
           ],
           "ml": "1-1"
         },
