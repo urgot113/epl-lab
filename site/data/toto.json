@@ -1,26 +1,12 @@
 {
   "meta": {
-    "baseDate": "2026-04-13",
+    "baseDate": "2026-04-14",
     "asOfDate": "2026-03-05",
     "windowDays": 7,
-    "generatedAt": "2026-04-13T05:57:39.330Z",
+    "generatedAt": "2026-04-14T05:33:05.249Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
-    {
-      "date": "2026-04-13",
-      "round": "Matchday 32",
-      "home": "Manchester United",
-      "away": "Leeds United",
-      "match": "Manchester United vs Leeds United",
-      "pick": "H",
-      "prob": 0.5971725739056855,
-      "xg": [
-        2.0785714285714287,
-        1.0972131147540982
-      ],
-      "ml": "2-1"
-    },
     {
       "date": "2026-04-18",
       "round": "Matchday 33",
@@ -146,59 +132,26 @@
         1.453864168618267
       ],
       "ml": "1-1"
+    },
+    {
+      "date": "2026-04-20",
+      "round": "Matchday 33",
+      "home": "Crystal Palace",
+      "away": "West Ham United",
+      "match": "Crystal Palace vs West Ham United",
+      "pick": "A",
+      "prob": 0.38131329052754337,
+      "xg": [
+        1.2097505668934243,
+        1.279703356752537
+      ],
+      "ml": "1-1"
     }
   ],
   "combos": {
     "2": {
-      "jointProb": 0.31732368016640267,
+      "jointProb": 0.278310664130803,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
-        {
-          "date": "2026-04-18",
-          "round": "Matchday 33",
-          "home": "Leeds United",
-          "away": "Wolverhampton Wanderers",
-          "match": "Leeds United vs Wolverhampton Wanderers",
-          "pick": "H",
-          "prob": 0.5313768482216319,
-          "xg": [
-            1.3668610301263362,
-            0.6890710382513662
-          ],
-          "ml": "1-0"
-        }
-      ]
-    },
-    "3": {
-      "jointProb": 0.16619949564439235,
-      "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -229,23 +182,9 @@
         }
       ]
     },
-    "4": {
-      "jointProb": 0.08429136182186348,
+    "3": {
+      "jointProb": 0.1411507585999354,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -290,23 +229,9 @@
         }
       ]
     },
-    "5": {
-      "jointProb": 0.03866051318845511,
+    "4": {
+      "jointProb": 0.06473926445684522,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -365,23 +290,9 @@
         }
       ]
     },
-    "6": {
-      "jointProb": 0.017534982154845134,
+    "5": {
+      "jointProb": 0.029363341387500706,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -454,23 +365,9 @@
         }
       ]
     },
-    "7": {
-      "jointProb": 0.007533547177418024,
+    "6": {
+      "jointProb": 0.012615360293836664,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -557,23 +454,9 @@
         }
       ]
     },
-    "8": {
-      "jointProb": 0.00311549016715152,
+    "7": {
+      "jointProb": 0.005217068404155422,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -674,23 +557,9 @@
         }
       ]
     },
-    "9": {
-      "jointProb": 0.001256764362611765,
+    "8": {
+      "jointProb": 0.0021045245838939887,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -805,23 +674,9 @@
         }
       ]
     },
-    "10": {
-      "jointProb": 0.0005046565814204147,
+    "9": {
+      "jointProb": 0.0008450766218545691,
       "games": [
-        {
-          "date": "2026-04-13",
-          "round": "Matchday 32",
-          "home": "Manchester United",
-          "away": "Leeds United",
-          "match": "Manchester United vs Leeds United",
-          "pick": "H",
-          "prob": 0.5971725739056855,
-          "xg": [
-            2.0785714285714287,
-            1.0972131147540982
-          ],
-          "ml": "2-1"
-        },
         {
           "date": "2026-04-18",
           "round": "Matchday 33",
@@ -945,6 +800,151 @@
           "xg": [
             1.558535795270489,
             1.453864168618267
+          ],
+          "ml": "1-1"
+        }
+      ]
+    },
+    "10": {
+      "jointProb": 0.0003222389474272662,
+      "games": [
+        {
+          "date": "2026-04-18",
+          "round": "Matchday 33",
+          "home": "Leeds United",
+          "away": "Wolverhampton Wanderers",
+          "match": "Leeds United vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.5313768482216319,
+          "xg": [
+            1.3668610301263362,
+            0.6890710382513662
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-04-18",
+          "round": "Matchday 33",
+          "home": "Brentford",
+          "away": "Fulham",
+          "match": "Brentford vs Fulham",
+          "pick": "H",
+          "prob": 0.5237538388475714,
+          "xg": [
+            1.7420408163265308,
+            1.0972131147540982
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-04-18",
+          "round": "Matchday 33",
+          "home": "Aston Villa",
+          "away": "Sunderland",
+          "match": "Aston Villa vs Sunderland",
+          "pick": "H",
+          "prob": 0.5071697810817485,
+          "xg": [
+            1.2583799959893254,
+            0.6634697594884948
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-04-18",
+          "round": "Matchday 33",
+          "home": "Newcastle United",
+          "away": "Bournemouth",
+          "match": "Newcastle United vs Bournemouth",
+          "pick": "H",
+          "prob": 0.4586533228654915,
+          "xg": [
+            2.2058309037900874,
+            1.8779078844652617
+          ],
+          "ml": "2-1"
+        },
+        {
+          "date": "2026-04-18",
+          "round": "Matchday 33",
+          "home": "Tottenham Hotspur",
+          "away": "Brighton & Hove Albion",
+          "match": "Tottenham Hotspur vs Brighton & Hove Albion",
+          "pick": "A",
+          "prob": 0.4535630985902554,
+          "xg": [
+            1.143764172335601,
+            1.4992974238875878
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Everton",
+          "away": "Liverpool",
+          "match": "Everton vs Liverpool",
+          "pick": "A",
+          "prob": 0.42962958906327775,
+          "xg": [
+            1.206009841578355,
+            1.460354633656742
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-04-19",
+          "round": "Matchday 33",
+          "home": "Manchester City",
+          "away": "Arsenal",
+          "match": "Manchester City vs Arsenal",
+          "pick": "H",
+          "prob": 0.41354890249977744,
+          "xg": [
+            1.3197278911564627,
+            1.1117379887871692
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-04-18",
+          "round": "Matchday 33",
+          "home": "Nottingham Forest",
+          "away": "Burnley",
+          "match": "Nottingham Forest vs Burnley",
+          "pick": "H",
+          "prob": 0.403392177533598,
+          "xg": [
+            1.4187074829931974,
+            1.277810304449649
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-04-18",
+          "round": "Matchday 33",
+          "home": "Chelsea",
+          "away": "Manchester United",
+          "match": "Chelsea vs Manchester United",
+          "pick": "H",
+          "prob": 0.4015522690121914,
+          "xg": [
+            1.558535795270489,
+            1.453864168618267
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-04-20",
+          "round": "Matchday 33",
+          "home": "Crystal Palace",
+          "away": "West Ham United",
+          "match": "Crystal Palace vs West Ham United",
+          "pick": "A",
+          "prob": 0.38131329052754337,
+          "xg": [
+            1.2097505668934243,
+            1.279703356752537
           ],
           "ml": "1-1"
         }

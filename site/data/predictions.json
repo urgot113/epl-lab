@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-13T05:57:39.292Z",
+  "updatedAt": "2026-04-14T05:33:05.210Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-04-13",
+  "baseDate": "2026-04-14",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-04-13",
-      "round": "Matchday 32",
-      "home": "Manchester United",
-      "away": "Leeds United",
-      "elo": {
-        "pHome": 0.5207257589009993,
-        "pDraw": 0.25773097011920026,
-        "pAway": 0.22154327097980042,
-        "diff": 148.46019920533172,
-        "Rh": 1559.7028867496454,
-        "Ra": 1471.2426875443136
-      },
-      "poisson": {
-        "lambdaHome": 2.0785714285714287,
-        "lambdaAway": 1.0972131147540982,
-        "pHome": 0.5971725739056855,
-        "pDraw": 0.20840761396396357,
-        "pAway": 0.194419812130351,
-        "mostLikelyScore": {
-          "home": 2,
-          "away": 1,
-          "p": 0.09898404516132235
-        }
-      }
-    },
     {
       "date": "2026-04-18",
       "round": "Matchday 33",
