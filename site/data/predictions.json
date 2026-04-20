@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-19T05:37:03.122Z",
+  "updatedAt": "2026-04-20T05:57:15.288Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-04-19",
+  "baseDate": "2026-04-20",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,58 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-04-19",
-      "round": "Matchday 33",
-      "home": "Everton",
-      "away": "Liverpool",
-      "elo": {
-        "pHome": 0.4098171754247265,
-        "pDraw": 0.27329862570040186,
-        "pAway": 0.3168841988748716,
-        "diff": 44.67582866398766,
-        "Rh": 1513.6769470243576,
-        "Ra": 1529.00111836037
-      },
-      "poisson": {
-        "lambdaHome": 1.206009841578355,
-        "lambdaAway": 1.460354633656742,
-        "pHome": 0.3124913379830671,
-        "pDraw": 0.2578790729536552,
-        "pAway": 0.42962958906327775,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12241138353874173
-        }
-      }
-    },
-    {
-      "date": "2026-04-19",
-      "round": "Matchday 33",
-      "home": "Manchester City",
-      "away": "Arsenal",
-      "elo": {
-        "pHome": 0.3954132374307216,
-        "pDraw": 0.2752364152853861,
-        "pAway": 0.3293503472838923,
-        "diff": 31.757231430759475,
-        "Rh": 1590.5368323469856,
-        "Ra": 1618.7796009162262
-      },
-      "poisson": {
-        "lambdaHome": 1.3197278911564627,
-        "lambdaAway": 1.1117379887871692,
-        "pHome": 0.41354890249977744,
-        "pDraw": 0.27282064413650564,
-        "pAway": 0.313630453363717,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.1289776995605602
-        }
-      }
-    },
     {
       "date": "2026-04-20",
       "round": "Matchday 33",
