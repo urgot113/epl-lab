@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-20T05:57:15.288Z",
+  "updatedAt": "2026-04-21T05:35:54.816Z",
   "asOfDate": "2026-03-05",
-  "baseDate": "2026-04-20",
+  "baseDate": "2026-04-21",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-04-20",
-      "round": "Matchday 33",
-      "home": "Crystal Palace",
-      "away": "West Ham United",
-      "elo": {
-        "pHome": 0.45704908848066994,
-        "pDraw": 0.26686489391122203,
-        "pAway": 0.276086017608108,
-        "diff": 87.56737392518676,
-        "Rh": 1484.2695088161042,
-        "Ra": 1456.7021348909175
-      },
-      "poisson": {
-        "lambdaHome": 1.2097505668934243,
-        "lambdaAway": 1.279703356752537,
-        "pHome": 0.3480009032665732,
-        "pDraw": 0.2706858062058833,
-        "pAway": 0.38131329052754337,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12842484239866822
-        }
-      }
-    },
     {
       "date": "2026-04-24",
       "round": "Matchday 34",

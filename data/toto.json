@@ -1,9 +1,9 @@
 {
   "meta": {
-    "baseDate": "2026-04-20",
+    "baseDate": "2026-04-21",
     "asOfDate": "2026-03-05",
     "windowDays": 7,
-    "generatedAt": "2026-04-20T05:57:15.325Z",
+    "generatedAt": "2026-04-21T05:35:54.854Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
@@ -92,6 +92,20 @@
       "ml": "1-0"
     },
     {
+      "date": "2026-04-27",
+      "round": "Matchday 34",
+      "home": "Manchester United",
+      "away": "Brentford",
+      "match": "Manchester United vs Brentford",
+      "pick": "H",
+      "prob": 0.500347419505612,
+      "xg": [
+        1.8146258503401362,
+        1.2721311475409838
+      ],
+      "ml": "1-1"
+    },
+    {
       "date": "2026-04-26",
       "round": "Matchday 34",
       "home": "Brighton & Hove Albion",
@@ -130,20 +144,6 @@
       "xg": [
         1.3574344023323615,
         1.2797033567525373
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-04-20",
-      "round": "Matchday 33",
-      "home": "Crystal Palace",
-      "away": "West Ham United",
-      "match": "Crystal Palace vs West Ham United",
-      "pick": "A",
-      "prob": 0.38131329052754337,
-      "xg": [
-        1.2097505668934243,
-        1.279703356752537
       ],
       "ml": "1-1"
     }
@@ -455,7 +455,7 @@
       ]
     },
     "7": {
-      "jointProb": 0.016186992442220795,
+      "jointProb": 0.01672600050376439,
       "games": [
         {
           "date": "2026-04-25",
@@ -542,23 +542,23 @@
           "ml": "1-0"
         },
         {
-          "date": "2026-04-26",
+          "date": "2026-04-27",
           "round": "Matchday 34",
-          "home": "Brighton & Hove Albion",
-          "away": "Chelsea",
-          "match": "Brighton & Hove Albion vs Chelsea",
-          "pick": "A",
-          "prob": 0.4842233441401137,
+          "home": "Manchester United",
+          "away": "Brentford",
+          "match": "Manchester United vs Brentford",
+          "pick": "H",
+          "prob": 0.500347419505612,
           "xg": [
-            1.1671062983016338,
-            1.644251143080183
+            1.8146258503401362,
+            1.2721311475409838
           ],
           "ml": "1-1"
         }
       ]
     },
     "8": {
-      "jointProb": 0.0063549413038645605,
+      "jointProb": 0.00809911989802202,
       "games": [
         {
           "date": "2026-04-25",
@@ -645,6 +645,20 @@
           "ml": "1-0"
         },
         {
+          "date": "2026-04-27",
+          "round": "Matchday 34",
+          "home": "Manchester United",
+          "away": "Brentford",
+          "match": "Manchester United vs Brentford",
+          "pick": "H",
+          "prob": 0.500347419505612,
+          "xg": [
+            1.8146258503401362,
+            1.2721311475409838
+          ],
+          "ml": "1-1"
+        },
+        {
           "date": "2026-04-26",
           "round": "Matchday 34",
           "home": "Brighton & Hove Albion",
@@ -655,27 +669,13 @@
           "xg": [
             1.1671062983016338,
             1.644251143080183
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-04-25",
-          "round": "Matchday 34",
-          "home": "Liverpool",
-          "away": "Crystal Palace",
-          "match": "Liverpool vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.39259555637333,
-          "xg": [
-            1.335438937479754,
-            1.226697892271663
           ],
           "ml": "1-1"
         }
       ]
     },
     "9": {
-      "jointProb": 0.0024604066775524304,
+      "jointProb": 0.0031796784824982623,
       "games": [
         {
           "date": "2026-04-25",
@@ -762,6 +762,20 @@
           "ml": "1-0"
         },
         {
+          "date": "2026-04-27",
+          "round": "Matchday 34",
+          "home": "Manchester United",
+          "away": "Brentford",
+          "match": "Manchester United vs Brentford",
+          "pick": "H",
+          "prob": 0.500347419505612,
+          "xg": [
+            1.8146258503401362,
+            1.2721311475409838
+          ],
+          "ml": "1-1"
+        },
+        {
           "date": "2026-04-26",
           "round": "Matchday 34",
           "home": "Brighton & Hove Albion",
@@ -786,27 +800,13 @@
           "xg": [
             1.335438937479754,
             1.226697892271663
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-04-25",
-          "round": "Matchday 34",
-          "home": "Fulham",
-          "away": "Aston Villa",
-          "match": "Fulham vs Aston Villa",
-          "pick": "H",
-          "prob": 0.3871643434466044,
-          "xg": [
-            1.3574344023323615,
-            1.2797033567525373
           ],
           "ml": "1-1"
         }
       ]
     },
     "10": {
-      "jointProb": 0.0009381857662534576,
+      "jointProb": 0.001231058132047735,
       "games": [
         {
           "date": "2026-04-25",
@@ -893,6 +893,20 @@
           "ml": "1-0"
         },
         {
+          "date": "2026-04-27",
+          "round": "Matchday 34",
+          "home": "Manchester United",
+          "away": "Brentford",
+          "match": "Manchester United vs Brentford",
+          "pick": "H",
+          "prob": 0.500347419505612,
+          "xg": [
+            1.8146258503401362,
+            1.2721311475409838
+          ],
+          "ml": "1-1"
+        },
+        {
           "date": "2026-04-26",
           "round": "Matchday 34",
           "home": "Brighton & Hove Albion",
@@ -931,20 +945,6 @@
           "xg": [
             1.3574344023323615,
             1.2797033567525373
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-04-20",
-          "round": "Matchday 33",
-          "home": "Crystal Palace",
-          "away": "West Ham United",
-          "match": "Crystal Palace vs West Ham United",
-          "pick": "A",
-          "prob": 0.38131329052754337,
-          "xg": [
-            1.2097505668934243,
-            1.279703356752537
           ],
           "ml": "1-1"
         }
