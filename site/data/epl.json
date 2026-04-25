@@ -1,6 +1,6 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-24T05:43:33.619Z",
+  "updatedAt": "2026-04-25T05:22:49.411Z",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "matches": [
     {
@@ -2335,313 +2335,329 @@
       "date": "2026-03-14",
       "home": "Sunderland",
       "away": "Brighton & Hove Albion",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 1,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-14",
       "home": "Burnley",
       "away": "Bournemouth",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 0,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-14",
       "home": "Arsenal",
       "away": "Everton",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 0,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-14",
       "home": "Chelsea",
       "away": "Newcastle United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 1,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-14",
       "home": "West Ham United",
       "away": "Manchester City",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-15",
       "home": "Crystal Palace",
       "away": "Leeds United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 0,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-15",
       "home": "Manchester United",
       "away": "Aston Villa",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 1,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-15",
       "home": "Nottingham Forest",
       "away": "Fulham",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 0,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-15",
       "home": "Liverpool",
       "away": "Tottenham Hotspur",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-16",
       "home": "Brentford",
       "away": "Wolverhampton Wanderers",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "round": "Matchday 30"
     },
     {
       "date": "2026-03-20",
       "home": "Bournemouth",
       "away": "Manchester United",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 31"
-    },
-    {
-      "date": "2026-03-21",
-      "home": "Manchester City",
-      "away": "Crystal Palace",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "round": "Matchday 31"
     },
     {
       "date": "2026-03-21",
       "home": "Brighton & Hove Albion",
       "away": "Liverpool",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 1,
       "round": "Matchday 31"
     },
     {
       "date": "2026-03-21",
       "home": "Fulham",
       "away": "Burnley",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 1,
       "round": "Matchday 31"
     },
     {
       "date": "2026-03-21",
       "home": "Everton",
       "away": "Chelsea",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 0,
       "round": "Matchday 31"
     },
     {
       "date": "2026-03-21",
       "home": "Leeds United",
       "away": "Brentford",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 0,
       "round": "Matchday 31"
     },
     {
       "date": "2026-03-22",
       "home": "Newcastle United",
       "away": "Sunderland",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 2,
       "round": "Matchday 31"
     },
     {
       "date": "2026-03-22",
       "home": "Aston Villa",
       "away": "West Ham United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 0,
       "round": "Matchday 31"
     },
     {
       "date": "2026-03-22",
       "home": "Tottenham Hotspur",
       "away": "Nottingham Forest",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 3,
       "round": "Matchday 31"
     },
     {
       "date": "2026-04-10",
       "home": "West Ham United",
       "away": "Wolverhampton Wanderers",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 4,
+      "awayGoals": 0,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-11",
       "home": "Arsenal",
       "away": "Bournemouth",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 32"
-    },
-    {
-      "date": "2026-04-11",
-      "home": "Crystal Palace",
-      "away": "Newcastle United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 2,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-11",
       "home": "Brentford",
       "away": "Everton",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-11",
       "home": "Burnley",
       "away": "Brighton & Hove Albion",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 32"
-    },
-    {
-      "date": "2026-04-11",
-      "home": "Nottingham Forest",
-      "away": "Aston Villa",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 2,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-11",
       "home": "Liverpool",
       "away": "Fulham",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 0,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-12",
       "home": "Sunderland",
       "away": "Tottenham Hotspur",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "round": "Matchday 32"
+    },
+    {
+      "date": "2026-04-12",
+      "home": "Crystal Palace",
+      "away": "Newcastle United",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "round": "Matchday 32"
+    },
+    {
+      "date": "2026-04-12",
+      "home": "Nottingham Forest",
+      "away": "Aston Villa",
+      "homeGoals": 1,
+      "awayGoals": 1,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-12",
       "home": "Chelsea",
       "away": "Manchester City",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 3,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-13",
       "home": "Manchester United",
       "away": "Leeds United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 2,
       "round": "Matchday 32"
     },
     {
       "date": "2026-04-18",
       "home": "Brentford",
       "away": "Fulham",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 0,
       "round": "Matchday 33"
     },
     {
       "date": "2026-04-18",
       "home": "Newcastle United",
       "away": "Bournemouth",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 33"
-    },
-    {
-      "date": "2026-04-18",
-      "home": "Nottingham Forest",
-      "away": "Burnley",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 33"
-    },
-    {
-      "date": "2026-04-18",
-      "home": "Aston Villa",
-      "away": "Sunderland",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 2,
       "round": "Matchday 33"
     },
     {
       "date": "2026-04-18",
       "home": "Leeds United",
       "away": "Wolverhampton Wanderers",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 0,
       "round": "Matchday 33"
     },
     {
       "date": "2026-04-18",
       "home": "Tottenham Hotspur",
       "away": "Brighton & Hove Albion",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "round": "Matchday 33"
     },
     {
       "date": "2026-04-18",
       "home": "Chelsea",
       "away": "Manchester United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "round": "Matchday 33"
+    },
+    {
+      "date": "2026-04-19",
+      "home": "Nottingham Forest",
+      "away": "Burnley",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "round": "Matchday 33"
+    },
+    {
+      "date": "2026-04-19",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "homeGoals": 4,
+      "awayGoals": 3,
       "round": "Matchday 33"
     },
     {
       "date": "2026-04-19",
       "home": "Everton",
       "away": "Liverpool",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 2,
       "round": "Matchday 33"
     },
     {
       "date": "2026-04-19",
       "home": "Manchester City",
       "away": "Arsenal",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 1,
       "round": "Matchday 33"
     },
     {
       "date": "2026-04-20",
       "home": "Crystal Palace",
       "away": "West Ham United",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "round": "Matchday 33"
+    },
+    {
+      "date": "2026-04-21",
+      "home": "Brighton & Hove Albion",
+      "away": "Chelsea",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "round": "Matchday 34"
+    },
+    {
+      "date": "2026-04-22",
+      "home": "Bournemouth",
+      "away": "Leeds United",
       "homeGoals": null,
       "awayGoals": null,
-      "round": "Matchday 33"
+      "round": "Matchday 34"
+    },
+    {
+      "date": "2026-04-22",
+      "home": "Burnley",
+      "away": "Manchester City",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 34"
     },
     {
       "date": "2026-04-24",
@@ -2661,14 +2677,6 @@
     },
     {
       "date": "2026-04-25",
-      "home": "Bournemouth",
-      "away": "Leeds United",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 34"
-    },
-    {
-      "date": "2026-04-25",
       "home": "Liverpool",
       "away": "Crystal Palace",
       "homeGoals": null,
@@ -2700,22 +2708,6 @@
       "round": "Matchday 34"
     },
     {
-      "date": "2026-04-26",
-      "home": "Burnley",
-      "away": "Manchester City",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 34"
-    },
-    {
-      "date": "2026-04-26",
-      "home": "Brighton & Hove Albion",
-      "away": "Chelsea",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 34"
-    },
-    {
       "date": "2026-04-27",
       "home": "Manchester United",
       "away": "Brentford",
@@ -2724,55 +2716,7 @@
       "round": "Matchday 34"
     },
     {
-      "date": "2026-05-02",
-      "home": "Bournemouth",
-      "away": "Crystal Palace",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 35"
-    },
-    {
-      "date": "2026-05-02",
-      "home": "Aston Villa",
-      "away": "Tottenham Hotspur",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 35"
-    },
-    {
-      "date": "2026-05-02",
-      "home": "Arsenal",
-      "away": "Fulham",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 35"
-    },
-    {
-      "date": "2026-05-02",
-      "home": "Brentford",
-      "away": "West Ham United",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 35"
-    },
-    {
-      "date": "2026-05-02",
-      "home": "Chelsea",
-      "away": "Nottingham Forest",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 35"
-    },
-    {
-      "date": "2026-05-02",
-      "home": "Everton",
-      "away": "Manchester City",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 35"
-    },
-    {
-      "date": "2026-05-02",
+      "date": "2026-05-01",
       "home": "Leeds United",
       "away": "Burnley",
       "homeGoals": null,
@@ -2781,8 +2725,8 @@
     },
     {
       "date": "2026-05-02",
-      "home": "Manchester United",
-      "away": "Liverpool",
+      "home": "Brentford",
+      "away": "West Ham United",
       "homeGoals": null,
       "awayGoals": null,
       "round": "Matchday 35"
@@ -2802,6 +2746,62 @@
       "homeGoals": null,
       "awayGoals": null,
       "round": "Matchday 35"
+    },
+    {
+      "date": "2026-05-02",
+      "home": "Arsenal",
+      "away": "Fulham",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 35"
+    },
+    {
+      "date": "2026-05-03",
+      "home": "Bournemouth",
+      "away": "Crystal Palace",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 35"
+    },
+    {
+      "date": "2026-05-03",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 35"
+    },
+    {
+      "date": "2026-05-03",
+      "home": "Aston Villa",
+      "away": "Tottenham Hotspur",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 35"
+    },
+    {
+      "date": "2026-05-04",
+      "home": "Chelsea",
+      "away": "Nottingham Forest",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 35"
+    },
+    {
+      "date": "2026-05-04",
+      "home": "Everton",
+      "away": "Manchester City",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 35"
+    },
+    {
+      "date": "2026-05-09",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 36"
     },
     {
       "date": "2026-05-09",
@@ -2821,32 +2821,8 @@
     },
     {
       "date": "2026-05-09",
-      "home": "Crystal Palace",
-      "away": "Everton",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 36"
-    },
-    {
-      "date": "2026-05-09",
-      "home": "Burnley",
-      "away": "Aston Villa",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 36"
-    },
-    {
-      "date": "2026-05-09",
       "home": "Fulham",
       "away": "Bournemouth",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 36"
-    },
-    {
-      "date": "2026-05-09",
-      "home": "Liverpool",
-      "away": "Chelsea",
       "homeGoals": null,
       "awayGoals": null,
       "round": "Matchday 36"
@@ -2860,7 +2836,23 @@
       "round": "Matchday 36"
     },
     {
-      "date": "2026-05-09",
+      "date": "2026-05-10",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 36"
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Burnley",
+      "away": "Aston Villa",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 36"
+    },
+    {
+      "date": "2026-05-10",
       "home": "Nottingham Forest",
       "away": "Newcastle United",
       "homeGoals": null,
@@ -2868,17 +2860,17 @@
       "round": "Matchday 36"
     },
     {
-      "date": "2026-05-09",
-      "home": "Tottenham Hotspur",
-      "away": "Leeds United",
+      "date": "2026-05-10",
+      "home": "West Ham United",
+      "away": "Arsenal",
       "homeGoals": null,
       "awayGoals": null,
       "round": "Matchday 36"
     },
     {
-      "date": "2026-05-09",
-      "home": "West Ham United",
-      "away": "Arsenal",
+      "date": "2026-05-11",
+      "home": "Tottenham Hotspur",
+      "away": "Leeds United",
       "homeGoals": null,
       "awayGoals": null,
       "round": "Matchday 36"
@@ -2962,6 +2954,14 @@
       "homeGoals": null,
       "awayGoals": null,
       "round": "Matchday 37"
+    },
+    {
+      "date": "2026-05-22",
+      "home": "Manchester City",
+      "away": "Crystal Palace",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 31"
     },
     {
       "date": "2026-05-24",
