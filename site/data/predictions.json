@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-25T05:22:49.517Z",
+  "updatedAt": "2026-04-26T05:47:04.801Z",
   "asOfDate": "2026-04-21",
-  "baseDate": "2026-04-25",
+  "baseDate": "2026-04-26",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,136 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-04-25",
-      "round": "Matchday 34",
-      "home": "Fulham",
-      "away": "Aston Villa",
-      "elo": {
-        "pHome": 0.3683144766184245,
-        "pDraw": 0.27887906429913467,
-        "pAway": 0.35280645908244085,
-        "diff": 7.472904672435561,
-        "Rh": 1492.4769237541132,
-        "Ra": 1545.0040190816776
-      },
-      "poisson": {
-        "lambdaHome": 1.4884763124199742,
-        "lambdaAway": 1.2664730846549028,
-        "pHome": 0.42354675321385094,
-        "pDraw": 0.2536977670565643,
-        "pAway": 0.3227554797295848,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11991639696366008
-        }
-      }
-    },
-    {
-      "date": "2026-04-25",
-      "round": "Matchday 34",
-      "home": "Liverpool",
-      "away": "Crystal Palace",
-      "elo": {
-        "pHome": 0.47794997248123267,
-        "pDraw": 0.26394485593235856,
-        "pAway": 0.25810517158640883,
-        "diff": 107.03429378427631,
-        "Rh": 1535.198032996671,
-        "Ra": 1488.1637392123946
-      },
-      "poisson": {
-        "lambdaHome": 1.3294050014371948,
-        "lambdaAway": 1.184626184626185,
-        "pHome": 0.40005446090019553,
-        "pDraw": 0.2684870434002411,
-        "pAway": 0.33145849569956326,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12747022864661547
-        }
-      }
-    },
-    {
-      "date": "2026-04-25",
-      "round": "Matchday 34",
-      "home": "West Ham United",
-      "away": "Everton",
-      "elo": {
-        "pHome": 0.37662648229878354,
-        "pDraw": 0.2777607364582496,
-        "pAway": 0.34561278124296685,
-        "diff": 14.92842361166936,
-        "Rh": 1462.0793092560007,
-        "Ra": 1507.1508856443313
-      },
-      "poisson": {
-        "lambdaHome": 1.0700567038595208,
-        "lambdaAway": 1.5680142952870229,
-        "pHome": 0.2593868291516625,
-        "pDraw": 0.252553366081279,
-        "pAway": 0.48805980476705846,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11996571095944401
-        }
-      }
-    },
-    {
-      "date": "2026-04-25",
-      "round": "Matchday 34",
-      "home": "Wolverhampton Wanderers",
-      "away": "Tottenham Hotspur",
-      "elo": {
-        "pHome": 0.39868340281646986,
-        "pDraw": 0.27479687566374855,
-        "pAway": 0.3265197215197816,
-        "diff": 34.687495575009734,
-        "Rh": 1394.3473385623672,
-        "Ra": 1419.6598429873575
-      },
-      "poisson": {
-        "lambdaHome": 1.0631973660142675,
-        "lambdaAway": 1.960017869108778,
-        "pHome": 0.20179502342306097,
-        "pDraw": 0.21769865347614378,
-        "pAway": 0.5805063231007952,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.10136971571416345
-        }
-      }
-    },
-    {
-      "date": "2026-04-25",
-      "round": "Matchday 34",
-      "home": "Arsenal",
-      "away": "Newcastle United",
-      "elo": {
-        "pHome": 0.5600342623293928,
-        "pDraw": 0.25160635908838797,
-        "pAway": 0.18835937858221927,
-        "diff": 189.29093941074711,
-        "Rh": 1601.1732148485137,
-        "Ra": 1471.8822754377666
-      },
-      "poisson": {
-        "lambdaHome": 1.7505030181086518,
-        "lambdaAway": 0.7639044002680365,
-        "pHome": 0.608473480389634,
-        "pDraw": 0.2316388568246423,
-        "pAway": 0.1598876627857237,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 0,
-          "p": 0.14163467711496355
-        }
-      }
-    },
     {
       "date": "2026-04-27",
       "round": "Matchday 34",
