@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-27T06:10:42.759Z",
+  "updatedAt": "2026-04-28T06:14:15.005Z",
   "asOfDate": "2026-04-21",
-  "baseDate": "2026-04-27",
+  "baseDate": "2026-04-28",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-04-27",
-      "round": "Matchday 34",
-      "home": "Manchester United",
-      "away": "Brentford",
-      "elo": {
-        "pHome": 0.482354906851965,
-        "pDraw": 0.26332122515660106,
-        "pAway": 0.2543238679914339,
-        "diff": 111.19183228932638,
-        "Rh": 1563.9404774869956,
-        "Ra": 1512.7486451976692
-      },
-      "poisson": {
-        "lambdaHome": 1.7655935613682094,
-        "lambdaAway": 1.2664730846549028,
-        "pHome": 0.4904034890544094,
-        "pDraw": 0.2341886638393383,
-        "pAway": 0.2754078471062522,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.10781442915565387
-        }
-      }
-    },
     {
       "date": "2026-05-01",
       "round": "Matchday 35",
