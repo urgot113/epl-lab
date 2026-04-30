@@ -1,6 +1,6 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-04-29T06:08:46.946Z",
+  "updatedAt": "2026-04-30T06:12:32.622Z",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "matches": [
     {
@@ -2647,72 +2647,72 @@
       "date": "2026-04-22",
       "home": "Bournemouth",
       "away": "Leeds United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-22",
       "home": "Burnley",
       "away": "Manchester City",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 1,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-24",
       "home": "Sunderland",
       "away": "Nottingham Forest",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 5,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-25",
       "home": "Fulham",
       "away": "Aston Villa",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 0,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-25",
       "home": "Liverpool",
       "away": "Crystal Palace",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 1,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-25",
       "home": "West Ham United",
       "away": "Everton",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 1,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-25",
       "home": "Wolverhampton Wanderers",
       "away": "Tottenham Hotspur",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 1,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-25",
       "home": "Arsenal",
       "away": "Newcastle United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 0,
       "round": "Matchday 34"
     },
     {
       "date": "2026-04-27",
       "home": "Manchester United",
       "away": "Brentford",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 1,
       "round": "Matchday 34"
     },
     {
@@ -2885,6 +2885,14 @@
     },
     {
       "date": "2026-05-17",
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "homeGoals": null,
+      "awayGoals": null,
+      "round": "Matchday 37"
+    },
+    {
+      "date": "2026-05-17",
       "home": "Aston Villa",
       "away": "Liverpool",
       "homeGoals": null,
@@ -2903,14 +2911,6 @@
       "date": "2026-05-17",
       "home": "Brentford",
       "away": "Crystal Palace",
-      "homeGoals": null,
-      "awayGoals": null,
-      "round": "Matchday 37"
-    },
-    {
-      "date": "2026-05-17",
-      "home": "Chelsea",
-      "away": "Tottenham Hotspur",
       "homeGoals": null,
       "awayGoals": null,
       "round": "Matchday 37"
