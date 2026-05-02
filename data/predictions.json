@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-01T06:23:09.981Z",
+  "updatedAt": "2026-05-02T05:44:28.134Z",
   "asOfDate": "2026-04-27",
-  "baseDate": "2026-05-01",
+  "baseDate": "2026-05-02",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-05-01",
-      "round": "Matchday 35",
-      "home": "Leeds United",
-      "away": "Burnley",
-      "elo": {
-        "pHome": 0.5493268191994762,
-        "pDraw": 0.25332423985061103,
-        "pAway": 0.1973489409499128,
-        "diff": 177.83840099592658,
-        "Rh": 1495.9535788394855,
-        "Ra": 1378.115177843559
-      },
-      "poisson": {
-        "lambdaHome": 2.081441733771936,
-        "lambdaAway": 1.1562501409874084,
-        "pHome": 0.5841354265148354,
-        "pDraw": 0.20950251291202557,
-        "pAway": 0.20636206057313894,
-        "mostLikelyScore": {
-          "home": 2,
-          "away": 1,
-          "p": 0.09831926062273375
-        }
-      }
-    },
     {
       "date": "2026-05-02",
       "round": "Matchday 35",
