@@ -1,23 +1,37 @@
 {
   "meta": {
-    "baseDate": "2026-05-02",
+    "baseDate": "2026-05-03",
     "asOfDate": "2026-04-27",
     "windowDays": 7,
-    "generatedAt": "2026-05-02T05:44:28.169Z",
+    "generatedAt": "2026-05-03T06:12:37.162Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
     {
-      "date": "2026-05-02",
-      "round": "Matchday 35",
-      "home": "Arsenal",
-      "away": "Fulham",
-      "match": "Arsenal vs Fulham",
+      "date": "2026-05-09",
+      "round": "Matchday 36",
+      "home": "Manchester City",
+      "away": "Brentford",
+      "match": "Manchester City vs Brentford",
       "pick": "H",
-      "prob": 0.6761260464269842,
+      "prob": 0.6461006798333495,
       "xg": [
-        1.986830745873212,
-        0.6974207199606589
+        2.1232999284180387,
+        0.9273915873480054
+      ],
+      "ml": "2-0"
+    },
+    {
+      "date": "2026-05-09",
+      "round": "Matchday 36",
+      "home": "Brighton & Hove Albion",
+      "away": "Wolverhampton Wanderers",
+      "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+      "pick": "H",
+      "prob": 0.6428154800198506,
+      "xg": [
+        1.6777681854040458,
+        0.5735367762834366
       ],
       "ml": "1-0"
     },
@@ -36,16 +50,16 @@
       "ml": "0-1"
     },
     {
-      "date": "2026-05-02",
-      "round": "Matchday 35",
-      "home": "Brentford",
-      "away": "West Ham United",
-      "match": "Brentford vs West Ham United",
+      "date": "2026-05-09",
+      "round": "Matchday 36",
+      "home": "Fulham",
+      "away": "Bournemouth",
+      "match": "Fulham vs Bournemouth",
       "pick": "H",
-      "prob": 0.5147119370646742,
+      "prob": 0.47336155651821454,
       "xg": [
-        1.6802911450813451,
-        1.0736608452025933
+        1.8619442418468959,
+        1.4453126762342607
       ],
       "ml": "1-1"
     },
@@ -64,30 +78,16 @@
       "ml": "1-1"
     },
     {
-      "date": "2026-05-02",
-      "round": "Matchday 35",
-      "home": "Newcastle United",
-      "away": "Brighton & Hove Albion",
-      "match": "Newcastle United vs Brighton & Hove Albion",
-      "pick": "A",
-      "prob": 0.4139024116585731,
+      "date": "2026-05-09",
+      "round": "Matchday 36",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "match": "Liverpool vs Chelsea",
+      "pick": "H",
+      "prob": 0.40338096822714437,
       "xg": [
-        1.4380870160606107,
-        1.5967263851730875
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-05-02",
-      "round": "Matchday 35",
-      "home": "Wolverhampton Wanderers",
-      "away": "Sunderland",
-      "match": "Wolverhampton Wanderers vs Sunderland",
-      "pick": "A",
-      "prob": 0.4128608091051608,
-      "xg": [
-        1.0722578628522095,
-        1.2847223788748978
+        1.6146941934715626,
+        1.5110782265814278
       ],
       "ml": "1-1"
     },
@@ -102,6 +102,20 @@
       "xg": [
         1.3687056249348795,
         1.232721711158533
+      ],
+      "ml": "1-1"
+    },
+    {
+      "date": "2026-05-09",
+      "round": "Matchday 36",
+      "home": "Sunderland",
+      "away": "Manchester United",
+      "match": "Sunderland vs Manchester United",
+      "pick": "A",
+      "prob": 0.3992467387339771,
+      "xg": [
+        1.3295997499367398,
+        1.4453126762342607
       ],
       "ml": "1-1"
     },
@@ -136,52 +150,66 @@
   ],
   "combos": {
     "2": {
-      "jointProb": 0.35512705233631786,
+      "jointProb": 0.41532351864822636,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
           ],
-          "ml": "1-0"
+          "ml": "2-0"
         },
         {
-          "date": "2026-05-04",
-          "round": "Matchday 35",
-          "home": "Everton",
-          "away": "Manchester City",
-          "match": "Everton vs Manchester City",
-          "pick": "A",
-          "prob": 0.5252379407848601,
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
           "xg": [
-            0.9461098789872437,
-            1.5967263851730877
+            1.6777681854040458,
+            0.5735367762834366
           ],
-          "ml": "0-1"
+          "ml": "1-0"
         }
       ]
     },
     "3": {
-      "jointProb": 0.1827881330120941,
+      "jointProb": 0.21814366969431684,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
           ],
           "ml": "1-0"
         },
@@ -198,37 +226,37 @@
             1.5967263851730877
           ],
           "ml": "0-1"
-        },
-        {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Brentford",
-          "away": "West Ham United",
-          "match": "Brentford vs West Ham United",
-          "pick": "H",
-          "prob": 0.5147119370646742,
-          "xg": [
-            1.6802911450813451,
-            1.0736608452025933
-          ],
-          "ml": "1-1"
         }
       ]
     },
     "4": {
-      "jointProb": 0.0835140500466671,
+      "jointProb": 0.10326082703109708,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
           ],
           "ml": "1-0"
         },
@@ -247,49 +275,49 @@
           "ml": "0-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Brentford",
-          "away": "West Ham United",
-          "match": "Brentford vs West Ham United",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Fulham",
+          "away": "Bournemouth",
+          "match": "Fulham vs Bournemouth",
           "pick": "H",
-          "prob": 0.5147119370646742,
+          "prob": 0.47336155651821454,
           "xg": [
-            1.6802911450813451,
-            1.0736608452025933
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-03",
-          "round": "Matchday 35",
-          "home": "Manchester United",
-          "away": "Liverpool",
-          "match": "Manchester United vs Liverpool",
-          "pick": "H",
-          "prob": 0.4568898903362694,
-          "xg": [
-            1.7585028950776236,
-            1.4131946167623877
+            1.8619442418468959,
+            1.4453126762342607
           ],
           "ml": "1-1"
         }
       ]
     },
     "5": {
-      "jointProb": 0.03456666672169028,
+      "jointProb": 0.04717882793827043,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
           ],
           "ml": "1-0"
         },
@@ -308,16 +336,16 @@
           "ml": "0-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Brentford",
-          "away": "West Ham United",
-          "match": "Brentford vs West Ham United",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Fulham",
+          "away": "Bournemouth",
+          "match": "Fulham vs Bournemouth",
           "pick": "H",
-          "prob": 0.5147119370646742,
+          "prob": 0.47336155651821454,
           "xg": [
-            1.6802911450813451,
-            1.0736608452025933
+            1.8619442418468959,
+            1.4453126762342607
           ],
           "ml": "1-1"
         },
@@ -332,39 +360,39 @@
           "xg": [
             1.7585028950776236,
             1.4131946167623877
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Newcastle United",
-          "away": "Brighton & Hove Albion",
-          "match": "Newcastle United vs Brighton & Hove Albion",
-          "pick": "A",
-          "prob": 0.4139024116585731,
-          "xg": [
-            1.4380870160606107,
-            1.5967263851730875
           ],
           "ml": "1-1"
         }
       ]
     },
     "6": {
-      "jointProb": 0.014271221990785486,
+      "jointProb": 0.019031041293561375,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
           ],
           "ml": "1-0"
         },
@@ -383,16 +411,16 @@
           "ml": "0-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Brentford",
-          "away": "West Ham United",
-          "match": "Brentford vs West Ham United",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Fulham",
+          "away": "Bournemouth",
+          "match": "Fulham vs Bournemouth",
           "pick": "H",
-          "prob": 0.5147119370646742,
+          "prob": 0.47336155651821454,
           "xg": [
-            1.6802911450813451,
-            1.0736608452025933
+            1.8619442418468959,
+            1.4453126762342607
           ],
           "ml": "1-1"
         },
@@ -411,49 +439,49 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Newcastle United",
-          "away": "Brighton & Hove Albion",
-          "match": "Newcastle United vs Brighton & Hove Albion",
-          "pick": "A",
-          "prob": 0.4139024116585731,
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Liverpool",
+          "away": "Chelsea",
+          "match": "Liverpool vs Chelsea",
+          "pick": "H",
+          "prob": 0.40338096822714437,
           "xg": [
-            1.4380870160606107,
-            1.5967263851730875
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Wolverhampton Wanderers",
-          "away": "Sunderland",
-          "match": "Wolverhampton Wanderers vs Sunderland",
-          "pick": "A",
-          "prob": 0.4128608091051608,
-          "xg": [
-            1.0722578628522095,
-            1.2847223788748978
+            1.6146941934715626,
+            1.5110782265814278
           ],
           "ml": "1-1"
         }
       ]
     },
     "7": {
-      "jointProb": 0.0057094200127354175,
+      "jointProb": 0.007613658318454412,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
           ],
           "ml": "1-0"
         },
@@ -472,16 +500,16 @@
           "ml": "0-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Brentford",
-          "away": "West Ham United",
-          "match": "Brentford vs West Ham United",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Fulham",
+          "away": "Bournemouth",
+          "match": "Fulham vs Bournemouth",
           "pick": "H",
-          "prob": 0.5147119370646742,
+          "prob": 0.47336155651821454,
           "xg": [
-            1.6802911450813451,
-            1.0736608452025933
+            1.8619442418468959,
+            1.4453126762342607
           ],
           "ml": "1-1"
         },
@@ -500,30 +528,16 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Newcastle United",
-          "away": "Brighton & Hove Albion",
-          "match": "Newcastle United vs Brighton & Hove Albion",
-          "pick": "A",
-          "prob": 0.4139024116585731,
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Liverpool",
+          "away": "Chelsea",
+          "match": "Liverpool vs Chelsea",
+          "pick": "H",
+          "prob": 0.40338096822714437,
           "xg": [
-            1.4380870160606107,
-            1.5967263851730875
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Wolverhampton Wanderers",
-          "away": "Sunderland",
-          "match": "Wolverhampton Wanderers vs Sunderland",
-          "pick": "A",
-          "prob": 0.4128608091051608,
-          "xg": [
-            1.0722578628522095,
-            1.2847223788748978
+            1.6146941934715626,
+            1.5110782265814278
           ],
           "ml": "1-1"
         },
@@ -544,19 +558,33 @@
       ]
     },
     "8": {
-      "jointProb": 0.0022706860031797872,
+      "jointProb": 0.00303972825347774,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
           ],
           "ml": "1-0"
         },
@@ -575,16 +603,16 @@
           "ml": "0-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Brentford",
-          "away": "West Ham United",
-          "match": "Brentford vs West Ham United",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Fulham",
+          "away": "Bournemouth",
+          "match": "Fulham vs Bournemouth",
           "pick": "H",
-          "prob": 0.5147119370646742,
+          "prob": 0.47336155651821454,
           "xg": [
-            1.6802911450813451,
-            1.0736608452025933
+            1.8619442418468959,
+            1.4453126762342607
           ],
           "ml": "1-1"
         },
@@ -603,30 +631,16 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Newcastle United",
-          "away": "Brighton & Hove Albion",
-          "match": "Newcastle United vs Brighton & Hove Albion",
-          "pick": "A",
-          "prob": 0.4139024116585731,
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Liverpool",
+          "away": "Chelsea",
+          "match": "Liverpool vs Chelsea",
+          "pick": "H",
+          "prob": 0.40338096822714437,
           "xg": [
-            1.4380870160606107,
-            1.5967263851730875
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Wolverhampton Wanderers",
-          "away": "Sunderland",
-          "match": "Wolverhampton Wanderers vs Sunderland",
-          "pick": "A",
-          "prob": 0.4128608091051608,
-          "xg": [
-            1.0722578628522095,
-            1.2847223788748978
+            1.6146941934715626,
+            1.5110782265814278
           ],
           "ml": "1-1"
         },
@@ -641,6 +655,137 @@
           "xg": [
             1.3687056249348795,
             1.232721711158533
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Sunderland",
+          "away": "Manchester United",
+          "match": "Sunderland vs Manchester United",
+          "pick": "A",
+          "prob": 0.3992467387339771,
+          "xg": [
+            1.3295997499367398,
+            1.4453126762342607
+          ],
+          "ml": "1-1"
+        }
+      ]
+    },
+    "9": {
+      "jointProb": 0.0012089263678702676,
+      "games": [
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
+          "pick": "H",
+          "prob": 0.6461006798333495,
+          "xg": [
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
+          ],
+          "ml": "1-0"
+        },
+        {
+          "date": "2026-05-04",
+          "round": "Matchday 35",
+          "home": "Everton",
+          "away": "Manchester City",
+          "match": "Everton vs Manchester City",
+          "pick": "A",
+          "prob": 0.5252379407848601,
+          "xg": [
+            0.9461098789872437,
+            1.5967263851730877
+          ],
+          "ml": "0-1"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Fulham",
+          "away": "Bournemouth",
+          "match": "Fulham vs Bournemouth",
+          "pick": "H",
+          "prob": 0.47336155651821454,
+          "xg": [
+            1.8619442418468959,
+            1.4453126762342607
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-05-03",
+          "round": "Matchday 35",
+          "home": "Manchester United",
+          "away": "Liverpool",
+          "match": "Manchester United vs Liverpool",
+          "pick": "H",
+          "prob": 0.4568898903362694,
+          "xg": [
+            1.7585028950776236,
+            1.4131946167623877
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Liverpool",
+          "away": "Chelsea",
+          "match": "Liverpool vs Chelsea",
+          "pick": "H",
+          "prob": 0.40338096822714437,
+          "xg": [
+            1.6146941934715626,
+            1.5110782265814278
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-05-03",
+          "round": "Matchday 35",
+          "home": "Aston Villa",
+          "away": "Tottenham Hotspur",
+          "match": "Aston Villa vs Tottenham Hotspur",
+          "pick": "H",
+          "prob": 0.40006525134440657,
+          "xg": [
+            1.3687056249348795,
+            1.232721711158533
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Sunderland",
+          "away": "Manchester United",
+          "match": "Sunderland vs Manchester United",
+          "pick": "A",
+          "prob": 0.3992467387339771,
+          "xg": [
+            1.3295997499367398,
+            1.4453126762342607
           ],
           "ml": "1-1"
         },
@@ -660,20 +805,34 @@
         }
       ]
     },
-    "9": {
-      "jointProb": 0.0008285671789493477,
+    "10": {
+      "jointProb": 0.0004411339607418361,
       "games": [
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Arsenal",
-          "away": "Fulham",
-          "match": "Arsenal vs Fulham",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Manchester City",
+          "away": "Brentford",
+          "match": "Manchester City vs Brentford",
           "pick": "H",
-          "prob": 0.6761260464269842,
+          "prob": 0.6461006798333495,
           "xg": [
-            1.986830745873212,
-            0.6974207199606589
+            2.1232999284180387,
+            0.9273915873480054
+          ],
+          "ml": "2-0"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Brighton & Hove Albion",
+          "away": "Wolverhampton Wanderers",
+          "match": "Brighton & Hove Albion vs Wolverhampton Wanderers",
+          "pick": "H",
+          "prob": 0.6428154800198506,
+          "xg": [
+            1.6777681854040458,
+            0.5735367762834366
           ],
           "ml": "1-0"
         },
@@ -692,16 +851,16 @@
           "ml": "0-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Brentford",
-          "away": "West Ham United",
-          "match": "Brentford vs West Ham United",
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Fulham",
+          "away": "Bournemouth",
+          "match": "Fulham vs Bournemouth",
           "pick": "H",
-          "prob": 0.5147119370646742,
+          "prob": 0.47336155651821454,
           "xg": [
-            1.6802911450813451,
-            1.0736608452025933
+            1.8619442418468959,
+            1.4453126762342607
           ],
           "ml": "1-1"
         },
@@ -720,30 +879,16 @@
           "ml": "1-1"
         },
         {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Newcastle United",
-          "away": "Brighton & Hove Albion",
-          "match": "Newcastle United vs Brighton & Hove Albion",
-          "pick": "A",
-          "prob": 0.4139024116585731,
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Liverpool",
+          "away": "Chelsea",
+          "match": "Liverpool vs Chelsea",
+          "pick": "H",
+          "prob": 0.40338096822714437,
           "xg": [
-            1.4380870160606107,
-            1.5967263851730875
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-02",
-          "round": "Matchday 35",
-          "home": "Wolverhampton Wanderers",
-          "away": "Sunderland",
-          "match": "Wolverhampton Wanderers vs Sunderland",
-          "pick": "A",
-          "prob": 0.4128608091051608,
-          "xg": [
-            1.0722578628522095,
-            1.2847223788748978
+            1.6146941934715626,
+            1.5110782265814278
           ],
           "ml": "1-1"
         },
@@ -758,6 +903,20 @@
           "xg": [
             1.3687056249348795,
             1.232721711158533
+          ],
+          "ml": "1-1"
+        },
+        {
+          "date": "2026-05-09",
+          "round": "Matchday 36",
+          "home": "Sunderland",
+          "away": "Manchester United",
+          "match": "Sunderland vs Manchester United",
+          "pick": "A",
+          "prob": 0.3992467387339771,
+          "xg": [
+            1.3295997499367398,
+            1.4453126762342607
           ],
           "ml": "1-1"
         },
