@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-04T06:22:26.032Z",
+  "updatedAt": "2026-05-05T05:58:52.463Z",
   "asOfDate": "2026-04-27",
-  "baseDate": "2026-05-04",
+  "baseDate": "2026-05-05",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,58 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-05-04",
-      "round": "Matchday 35",
-      "home": "Chelsea",
-      "away": "Nottingham Forest",
-      "elo": {
-        "pHome": 0.4441296974486925,
-        "pDraw": 0.2686429581391189,
-        "pAway": 0.2872273444121885,
-        "diff": 75.71361240587407,
-        "Rh": 1493.2819239613139,
-        "Ra": 1477.5683115554398
-      },
-      "poisson": {
-        "lambdaHome": 1.2513879999404611,
-        "lambdaAway": 1.3749588316768253,
-        "pHome": 0.3402868981961824,
-        "pDraw": 0.2620044031768466,
-        "pAway": 0.39770869862697106,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.12447259518325605
-        }
-      }
-    },
-    {
-      "date": "2026-05-04",
-      "round": "Matchday 35",
-      "home": "Everton",
-      "away": "Manchester City",
-      "elo": {
-        "pHome": 0.30705837978965955,
-        "pDraw": 0.2717654284347313,
-        "pAway": 0.42117619177560917,
-        "diff": -54.89714376845836,
-        "Rh": 1497.5802959882626,
-        "Ra": 1612.477439756721
-      },
-      "poisson": {
-        "lambdaHome": 0.9461098789872437,
-        "lambdaAway": 1.5967263851730877,
-        "pHome": 0.2238124635628325,
-        "pDraw": 0.25094959565230734,
-        "pAway": 0.5252379407848601,
-        "mostLikelyScore": {
-          "home": 0,
-          "away": 1,
-          "p": 0.12557140223088276
-        }
-      }
-    },
     {
       "date": "2026-05-09",
       "round": "Matchday 36",
