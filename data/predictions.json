@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-10T06:20:00.079Z",
+  "updatedAt": "2026-05-11T06:50:01.342Z",
   "asOfDate": "2026-05-04",
-  "baseDate": "2026-05-10",
+  "baseDate": "2026-05-11",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,110 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-05-10",
-      "round": "Matchday 36",
-      "home": "Crystal Palace",
-      "away": "Everton",
-      "elo": {
-        "pHome": 0.3992201308014812,
-        "pDraw": 0.2747247179935038,
-        "pAway": 0.32605515120501505,
-        "diff": 35.16854670997486,
-        "Rh": 1474.3158901365466,
-        "Ra": 1499.1473434265718
-      },
-      "poisson": {
-        "lambdaHome": 0.8333499154313003,
-        "lambdaAway": 1.1133034026465032,
-        "pHome": 0.2715458987794244,
-        "pDraw": 0.30932494723703513,
-        "pAway": 0.41912915398354045,
-        "mostLikelyScore": {
-          "home": 0,
-          "away": 1,
-          "p": 0.15892519105824596
-        }
-      }
-    },
-    {
-      "date": "2026-05-10",
-      "round": "Matchday 36",
-      "home": "Burnley",
-      "away": "Aston Villa",
-      "elo": {
-        "pHome": 0.27570199206236556,
-        "pDraw": 0.2668032255180649,
-        "pAway": 0.45749478241956953,
-        "diff": -87.97849654623428,
-        "Rh": 1372.8291098745003,
-        "Ra": 1520.8076064207346
-      },
-      "poisson": {
-        "lambdaHome": 0.9127165740438051,
-        "lambdaAway": 1.4538612336343906,
-        "pHome": 0.2367298004725248,
-        "pDraw": 0.266403552664443,
-        "pAway": 0.49686664686303234,
-        "mostLikelyScore": {
-          "home": 0,
-          "away": 1,
-          "p": 0.13637390410064323
-        }
-      }
-    },
-    {
-      "date": "2026-05-10",
-      "round": "Matchday 36",
-      "home": "Nottingham Forest",
-      "away": "Newcastle United",
-      "elo": {
-        "pHome": 0.4410311797756929,
-        "pDraw": 0.26906690722686016,
-        "pAway": 0.289901912997447,
-        "diff": 72.88728515426578,
-        "Rh": 1489.7136707173242,
-        "Ra": 1476.8263855630585
-      },
-      "poisson": {
-        "lambdaHome": 0.9672811518399022,
-        "lambdaAway": 1.062906952320941,
-        "pHome": 0.32249205322254204,
-        "pDraw": 0.3053031311137559,
-        "pAway": 0.37220481566370195,
-        "mostLikelyScore": {
-          "home": 0,
-          "away": 1,
-          "p": 0.13957118212594494
-        }
-      }
-    },
-    {
-      "date": "2026-05-10",
-      "round": "Matchday 36",
-      "home": "West Ham United",
-      "away": "Arsenal",
-      "elo": {
-        "pHome": 0.2761365286786952,
-        "pDraw": 0.266873003158127,
-        "pAway": 0.4569904681631778,
-        "diff": -87.5133122791533,
-        "Rh": 1464.2964963076613,
-        "Ra": 1611.8098085868146
-      },
-      "poisson": {
-        "lambdaHome": 0.9127165740438051,
-        "lambdaAway": 1.977678883987958,
-        "pHome": 0.16738582721828119,
-        "pDraw": 0.21217900517203356,
-        "pAway": 0.6204351676096852,
-        "mostLikelyScore": {
-          "home": 0,
-          "away": 1,
-          "p": 0.10986844518253669
-        }
-      }
-    },
     {
       "date": "2026-05-11",
       "round": "Matchday 36",
