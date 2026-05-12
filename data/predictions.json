@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-11T06:50:01.342Z",
+  "updatedAt": "2026-05-12T06:22:29.191Z",
   "asOfDate": "2026-05-04",
-  "baseDate": "2026-05-11",
+  "baseDate": "2026-05-12",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-05-11",
-      "round": "Matchday 36",
-      "home": "Tottenham Hotspur",
-      "away": "Leeds United",
-      "elo": {
-        "pHome": 0.364255139812736,
-        "pDraw": 0.2794259881762904,
-        "pAway": 0.3563188720109736,
-        "diff": 3.826745491397787,
-        "Rh": 1445.066392299942,
-        "Ra": 1501.2396468085442
-      },
-      "poisson": {
-        "lambdaHome": 1.3541936125758631,
-        "lambdaAway": 1.5668714555765597,
-        "pHome": 0.3302035569066852,
-        "pDraw": 0.24561486092266285,
-        "pAway": 0.42418158217065194,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11431722918499314
-        }
-      }
-    },
     {
       "date": "2026-05-13",
       "round": "Matchday 31",
