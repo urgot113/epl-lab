@@ -1,9 +1,9 @@
 {
   "meta": {
-    "baseDate": "2026-05-15",
+    "baseDate": "2026-05-16",
     "asOfDate": "2026-05-11",
     "windowDays": 7,
-    "generatedAt": "2026-05-15T06:42:29.248Z",
+    "generatedAt": "2026-05-16T06:07:53.606Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [
@@ -116,20 +116,6 @@
       "xg": [
         1.6605122324159023,
         1.4415627362055934
-      ],
-      "ml": "1-1"
-    },
-    {
-      "date": "2026-05-15",
-      "round": "Matchday 37",
-      "home": "Aston Villa",
-      "away": "Liverpool",
-      "match": "Aston Villa vs Liverpool",
-      "pick": "H",
-      "prob": 0.40709359324694044,
-      "xg": [
-        1.5232798165137615,
-        1.3850308641975309
       ],
       "ml": "1-1"
     },
@@ -675,7 +661,7 @@
       ]
     },
     "9": {
-      "jointProb": 0.0011690001289520369,
+      "jointProb": 0.0011431464118348328,
       "games": [
         {
           "date": "2026-05-18",
@@ -786,151 +772,6 @@
           "xg": [
             1.6605122324159023,
             1.4415627362055934
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-15",
-          "round": "Matchday 37",
-          "home": "Aston Villa",
-          "away": "Liverpool",
-          "match": "Aston Villa vs Liverpool",
-          "pick": "H",
-          "prob": 0.40709359324694044,
-          "xg": [
-            1.5232798165137615,
-            1.3850308641975309
-          ],
-          "ml": "1-1"
-        }
-      ]
-    },
-    "10": {
-      "jointProb": 0.0004653675804011888,
-      "games": [
-        {
-          "date": "2026-05-18",
-          "round": "Matchday 37",
-          "home": "Arsenal",
-          "away": "Burnley",
-          "match": "Arsenal vs Burnley",
-          "pick": "H",
-          "prob": 0.8054384787501506,
-          "xg": [
-            2.909327217125382,
-            0.751873897707231
-          ],
-          "ml": "2-0"
-        },
-        {
-          "date": "2026-05-17",
-          "round": "Matchday 37",
-          "home": "Newcastle United",
-          "away": "West Ham United",
-          "match": "Newcastle United vs West Ham United",
-          "pick": "H",
-          "prob": 0.49472200359612395,
-          "xg": [
-            1.8755096839959227,
-            1.3595915217939025
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-19",
-          "round": "Matchday 37",
-          "home": "Bournemouth",
-          "away": "Manchester City",
-          "match": "Bournemouth vs Manchester City",
-          "pick": "A",
-          "prob": 0.44868546614297344,
-          "xg": [
-            1.152752293577982,
-            1.4882015306122447
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-19",
-          "round": "Matchday 37",
-          "home": "Chelsea",
-          "away": "Tottenham Hotspur",
-          "match": "Chelsea vs Tottenham Hotspur",
-          "pick": "A",
-          "prob": 0.4456287078515953,
-          "xg": [
-            1.1710499490316004,
-            1.4924414210128492
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-17",
-          "round": "Matchday 37",
-          "home": "Brentford",
-          "away": "Crystal Palace",
-          "match": "Brentford vs Crystal Palace",
-          "pick": "H",
-          "prob": 0.4455773003907947,
-          "xg": [
-            1.4427303550059833,
-            1.1149068322981366
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-17",
-          "round": "Matchday 37",
-          "home": "Everton",
-          "away": "Sunderland",
-          "match": "Everton vs Sunderland",
-          "pick": "H",
-          "prob": 0.4407922015442865,
-          "xg": [
-            1.320862003058104,
-            0.9949609473418994
-          ],
-          "ml": "1-0"
-        },
-        {
-          "date": "2026-05-17",
-          "round": "Matchday 37",
-          "home": "Wolverhampton Wanderers",
-          "away": "Fulham",
-          "match": "Wolverhampton Wanderers vs Fulham",
-          "pick": "A",
-          "prob": 0.42849467569326904,
-          "xg": [
-            1.1298802242609582,
-            1.390684051398337
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-17",
-          "round": "Matchday 37",
-          "home": "Manchester United",
-          "away": "Nottingham Forest",
-          "match": "Manchester United vs Nottingham Forest",
-          "pick": "H",
-          "prob": 0.42826160278322367,
-          "xg": [
-            1.6605122324159023,
-            1.4415627362055934
-          ],
-          "ml": "1-1"
-        },
-        {
-          "date": "2026-05-15",
-          "round": "Matchday 37",
-          "home": "Aston Villa",
-          "away": "Liverpool",
-          "match": "Aston Villa vs Liverpool",
-          "pick": "H",
-          "prob": 0.40709359324694044,
-          "xg": [
-            1.5232798165137615,
-            1.3850308641975309
           ],
           "ml": "1-1"
         },

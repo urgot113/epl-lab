@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-15T06:42:29.211Z",
+  "updatedAt": "2026-05-16T06:07:53.570Z",
   "asOfDate": "2026-05-11",
-  "baseDate": "2026-05-15",
+  "baseDate": "2026-05-16",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-05-15",
-      "round": "Matchday 37",
-      "home": "Aston Villa",
-      "away": "Liverpool",
-      "elo": {
-        "pHome": 0.4121556032186722,
-        "pDraw": 0.2729834549106256,
-        "pAway": 0.31486094187070224,
-        "diff": 46.7769672624961,
-        "Rh": 1518.3281521093643,
-        "Ra": 1531.5511848468682
-      },
-      "poisson": {
-        "lambdaHome": 1.5232798165137615,
-        "lambdaAway": 1.3850308641975309,
-        "pHome": 0.40709359324694044,
-        "pDraw": 0.247091404468044,
-        "pAway": 0.34581500228501555,
-        "mostLikelyScore": {
-          "home": 1,
-          "away": 1,
-          "p": 0.11512664767330881
-        }
-      }
-    },
     {
       "date": "2026-05-17",
       "round": "Matchday 37",
