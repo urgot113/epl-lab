@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-18T07:05:59.828Z",
+  "updatedAt": "2026-05-19T06:57:00.974Z",
   "asOfDate": "2026-05-11",
-  "baseDate": "2026-05-18",
+  "baseDate": "2026-05-19",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -17,32 +17,6 @@
     }
   },
   "upcoming": [
-    {
-      "date": "2026-05-18",
-      "round": "Matchday 37",
-      "home": "Arsenal",
-      "away": "Burnley",
-      "elo": {
-        "pHome": 0.6522751436456233,
-        "pDraw": 0.23439484596775967,
-        "pAway": 0.11333001038661705,
-        "diff": 304.03436021493576,
-        "Rh": 1619.3429244008064,
-        "Ra": 1375.3085641858706
-      },
-      "poisson": {
-        "lambdaHome": 2.909327217125382,
-        "lambdaAway": 0.751873897707231,
-        "pHome": 0.8054384787501506,
-        "pDraw": 0.12489826471023181,
-        "pAway": 0.06966325653961755,
-        "mostLikelyScore": {
-          "home": 2,
-          "away": 0,
-          "p": 0.10877164653597245
-        }
-      }
-    },
     {
       "date": "2026-05-19",
       "round": "Matchday 37",
