@@ -1,6 +1,6 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-19T06:57:00.701Z",
+  "updatedAt": "2026-05-20T06:57:02.777Z",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "matches": [
     {
@@ -2879,64 +2879,64 @@
       "date": "2026-05-13",
       "home": "Manchester City",
       "away": "Crystal Palace",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 0,
       "round": "Matchday 31"
     },
     {
       "date": "2026-05-15",
       "home": "Aston Villa",
       "away": "Liverpool",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 4,
+      "awayGoals": 2,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-17",
       "home": "Manchester United",
       "away": "Nottingham Forest",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 2,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-17",
       "home": "Brentford",
       "away": "Crystal Palace",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-17",
       "home": "Everton",
       "away": "Sunderland",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 3,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-17",
       "home": "Leeds United",
       "away": "Brighton & Hove Albion",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 0,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-17",
       "home": "Wolverhampton Wanderers",
       "away": "Fulham",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-17",
       "home": "Newcastle United",
       "away": "West Ham United",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 1,
       "round": "Matchday 37"
     },
     {
