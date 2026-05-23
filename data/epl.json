@@ -1,6 +1,6 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-22T06:57:35.686Z",
+  "updatedAt": "2026-05-23T06:19:43.994Z",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "matches": [
     {
@@ -2943,24 +2943,24 @@
       "date": "2026-05-18",
       "home": "Arsenal",
       "away": "Burnley",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 0,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-19",
       "home": "Bournemouth",
       "away": "Manchester City",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "round": "Matchday 37"
     },
     {
       "date": "2026-05-19",
       "home": "Chelsea",
       "away": "Tottenham Hotspur",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 1,
       "round": "Matchday 37"
     },
     {
