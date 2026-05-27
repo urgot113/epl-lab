@@ -1,7 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-05-26T06:56:06.755Z",
-  "baseDate": "2026-05-26",
+  "updatedAt": "2026-05-27T07:13:55.860Z",
+  "asOfDate": "2026-05-24",
+  "baseDate": "2026-05-27",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
@@ -10,8 +11,8 @@
       "base": 1500
     },
     "poisson": {
-      "leagueAvgHome": 1.653061224489796,
-      "leagueAvgAway": 1.3236151603498543,
+      "leagueAvgHome": 1.6430594900849858,
+      "leagueAvgAway": 1.3172804532577904,
       "maxGoals": 6
     }
   },
