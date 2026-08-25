@@ -1,8 +1,8 @@
 {
   "season": "English Premier League 2025/26",
-  "updatedAt": "2026-08-24T04:07:39.332Z",
+  "updatedAt": "2026-08-25T04:02:06.376Z",
   "asOfDate": "2026-05-24",
-  "baseDate": "2026-08-24",
+  "baseDate": "2026-08-25",
   "source": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
   "model": {
     "elo": {
