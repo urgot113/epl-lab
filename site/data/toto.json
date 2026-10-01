@@ -1,9 +1,9 @@
 {
   "meta": {
-    "baseDate": "2026-09-30",
+    "baseDate": "2026-10-01",
     "asOfDate": "2026-05-24",
     "windowDays": 7,
-    "generatedAt": "2026-09-30T09:46:15.842Z",
+    "generatedAt": "2026-10-01T10:12:51.970Z",
     "note": "Informational only. Joint prob is a naive product (independence assumption)."
   },
   "topPicks": [],
